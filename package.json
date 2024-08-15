@@ -17,17 +17,18 @@
   "scripts": {
     "build-fast": "tsup",
     "build": "pnpm run build-fast --dts-resolve --dts && pnpm run doc:md",
+    "clean": "rm -fr web docs dist",
     "doc": "typedoc --plugin none --out web",
     "doc:md": "typedoc --plugin typedoc-plugin-markdown --out docs",
     "style": "pnpm run format -c && pnpm run lint",
-    "style:fix": "pnpm run format:fix && pnpm run lint:fix",
+    "style:fix": "pnpm run format:fix && npm run lint:fix",
     "format": "prettier \"**/*.{ts,tsx,js,jsx,css,scss,sass,less,md}\"",
     "format:fix": "pnpm run format --write",
     "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
     "test": "vitest run",
-    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public",
-    "prepublishOnly": "pnpm run build"
+    "release": "pnpm run clean && pnpm run build && git add -f docs && git ci -m 'docs: update API docs' && pnpm dlx commit-and-tag-version -s",
+    "release.alpha": "pnpm run release -- --prerelease alpha"
   },
   "dependencies": {
     "@isdk/ai-tool": "workspace:*",
@@ -43,7 +44,6 @@
     "@types/jest": "^29.5.12",
     "@types/lodash-es": "^4.17.12",
     "@typescript-eslint/eslint-plugin": "^7.12.0",
-    "bumpp": "^9.4.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-tsdoc": "^0.2.17",
