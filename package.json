@@ -4,7 +4,7 @@
   "author": "Riceball LEE <snowyu.lee@gmail.com>",
   "homepage": "https://github.com/offline-ai/cli-common.js",
   "repository": "https://github.com/offline-ai/cli-common.js",
-  "bugs": "https://github.com/@offline-ai/cli/issues",
+  "bugs": "https://github.com/@offline-ai/cli-common/issues",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "exports": {
