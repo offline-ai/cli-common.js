@@ -1,8 +1,8 @@
 import path from 'path'
-import {Command, Flags} from '@oclif/core'
-import { DEFAULT_CONFIG_NAME, loadAIConfig, loadConfigFile } from './load-config'
 import { defaultsDeep } from 'lodash-es'
+import {Command, Flags} from '@oclif/core'
 import { parseJsJson } from '@isdk/ai-tool'
+import { DEFAULT_CONFIG_NAME, loadAIConfig, loadConfigFile } from './load-config'
 
 // const CONFIG_BASE_NAME = '.ai'
 
@@ -14,7 +14,7 @@ export abstract class AICommand extends Command {
     banner: Flags.boolean({description: 'show banner', allowNo: true}),
   }
 
-  loadConfig(configFile?: string, {args, flags}: any = {}) {
+  async loadConfig(configFile?: string, {args, flags, skipLoadHook}: any = {}) {
     let result = loadAIConfig(this.config)
     if (configFile) {
       configFile = path.resolve(configFile)
@@ -94,6 +94,8 @@ export abstract class AICommand extends Command {
         })
       }
     }
+
+    if (!skipLoadHook) {await this.config.runHook('config:load', {id: this.id, userConfig: result})}
 
     return result
   }
