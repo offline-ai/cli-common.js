@@ -270,7 +270,7 @@ Command.enableJsonFlag
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/3f3ca4e53004a24ee124073bc34b982a9b6c690c/src/ai-command.ts#L10)
+[packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/427d66628530c86ac7413f33d19036304f27ebf3/src/ai-command.ts#L10)
 
 ___
 
@@ -311,7 +311,7 @@ Command.flags
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:12](https://github.com/offline-ai/cli-common.js/blob/3f3ca4e53004a24ee124073bc34b982a9b6c690c/src/ai-command.ts#L12)
+[packages/cli-common/src/ai-command.ts:12](https://github.com/offline-ai/cli-common.js/blob/427d66628530c86ac7413f33d19036304f27ebf3/src/ai-command.ts#L12)
 
 ___
 
@@ -714,7 +714,7 @@ ___
 
 ### loadConfig
 
-▸ **loadConfig**(`configFile?`, `«destructured»?`): `any`
+▸ **loadConfig**(`configFile?`, `«destructured»?`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -725,11 +725,11 @@ ___
 
 #### Returns
 
-`any`
+`Promise`\<`any`\>
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:17](https://github.com/offline-ai/cli-common.js/blob/3f3ca4e53004a24ee124073bc34b982a9b6c690c/src/ai-command.ts#L17)
+[packages/cli-common/src/ai-command.ts:17](https://github.com/offline-ai/cli-common.js/blob/427d66628530c86ac7413f33d19036304f27ebf3/src/ai-command.ts#L17)
 
 ___
 
