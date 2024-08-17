@@ -65,6 +65,9 @@ export function getXDGConfigs(config: Config) {
 }
 
 export function expandPath(path: string, config?: any) {
+  if (path.startsWith('~')) {
+    path = '$HOME' + path.slice(1)
+  }
   const result = expandConfig(path, config)
   return result
 }
