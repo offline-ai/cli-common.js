@@ -126,7 +126,7 @@ export const AICommonFlags = {
   brainDir: Flags.directory({char: 'b', description: 'the brains(LLM) directory', exists: true}),
   promptDirs: Flags.directory({char: 'p', description: 'the prompts template directory', exists: true, multiple: true}),
   userPreferredLanguage: Flags.string({
-    char: 'L', description: 'the user preferred language',
+    char: 'L', description: 'the ISO 639-1 code for the user preferred language, eg, en, zh, ja, ko, etc.',
     aliases: ['user-preferred-language'],
   }),
 }
