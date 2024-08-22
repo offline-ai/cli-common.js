@@ -26,6 +26,11 @@ export abstract class AICommand extends Command {
     }
     result.theme = this.config.theme
     if (flags) {
+      if (flags.streamEcho) {
+        if ((flags.streamEcho[0]).toLowerCase() === 'f') {
+          result.streamEcho = false
+        }
+      }
       if (flags.interactive !== undefined) {result.interactive = flags.interactive}
       if (flags.brainDir) {result.brainDir = flags.brainDir}
       if (flags.agentDirs) {result.agentDirs = flags.agentDirs}
@@ -129,9 +134,15 @@ export const AICommonFlags = {
     char: 'L', description: 'the ISO 639-1 code for the user preferred language to translate the AI result automatically, eg, en, zh, ja, ko, etc.',
     aliases: ['user-preferred-language'],
   }),
-
   aiPreferredLanguage: Flags.string({
     char: 'A', description: 'the ISO 639-1 code for the AI preferred language to translate the user input automatically, eg, en, etc.',
     aliases: ['ai-preferred-language'],
+  }),
+  streamEcho: Flags.string({
+    char: 'e', description: 'stream echo mode, defaults to true',
+    default: 'true',
+    options: ['true', 'false', 'line'],
+    allowNo: true,
+    // dependsOn: ['stream'],
   }),
 }
