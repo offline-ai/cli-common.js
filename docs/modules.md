@@ -36,6 +36,7 @@
 | Name | Type |
 | :------ | :------ |
 | `agentDirs` | `OptionFlag`\<`undefined` \| `string`[], `CustomOptions`\> |
+| `aiPreferredLanguage` | `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\> |
 | `api` | `OptionFlag`\<`undefined` \| `URL`, `CustomOptions`\> |
 | `arguments` | `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\> |
 | `backupChat` | `BooleanFlag`\<`boolean`\> |
@@ -51,10 +52,12 @@
 | `promptDirs` | `OptionFlag`\<`undefined` \| `string`[], `CustomOptions`\> |
 | `script` | `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\> |
 | `stream` | `BooleanFlag`\<`boolean`\> |
+| `streamEcho` | `OptionFlag`\<`string`, `CustomOptions`\> |
+| `userPreferredLanguage` | `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\> |
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:104](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/ai-command.ts#L104)
+[packages/cli-common/src/ai-command.ts:115](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/ai-command.ts#L115)
 
 ___
 
@@ -64,7 +67,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:1](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/load-config.ts#L1)
+[packages/cli-common/src/load-config.ts:1](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/load-config.ts#L1)
 
 ## Functions
 
@@ -85,7 +88,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:18](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/load-config.ts#L18)
+[packages/cli-common/src/load-config.ts:18](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/load-config.ts#L18)
 
 ___
 
@@ -106,7 +109,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:67](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/load-config.ts#L67)
+[packages/cli-common/src/load-config.ts:67](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/load-config.ts#L67)
 
 ___
 
@@ -133,7 +136,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:57](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/load-config.ts#L57)
+[packages/cli-common/src/load-config.ts:57](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/load-config.ts#L57)
 
 ___
 
@@ -153,7 +156,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:53](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/load-config.ts#L53)
+[packages/cli-common/src/load-config.ts:53](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/load-config.ts#L53)
 
 ___
 
@@ -174,7 +177,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:27](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/load-config.ts#L27)
+[packages/cli-common/src/load-config.ts:27](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/load-config.ts#L27)
 
 ___
 
@@ -195,7 +198,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:9](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/load-config.ts#L9)
+[packages/cli-common/src/load-config.ts:9](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/load-config.ts#L9)
 
 ___
 
@@ -215,7 +218,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/help.ts#L6)
+[packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/help.ts#L6)
 
 ___
 
@@ -236,4 +239,4 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/67bb5c911a9d4560353014b988476b81e4bff797/src/u-text.ts#L17)
+[packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/8ca8d344bbac08096b38124b10462e96867fc9b3/src/u-text.ts#L17)
