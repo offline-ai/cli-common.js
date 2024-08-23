@@ -33,7 +33,13 @@ export abstract class AICommand extends Command {
       }
       if (flags.interactive !== undefined) {result.interactive = flags.interactive}
       if (flags.brainDir) {result.brainDir = flags.brainDir}
-      if (flags.agentDirs) {result.agentDirs = flags.agentDirs}
+      if (flags.agentDirs) {
+        if (Array.isArray(result.agentDirs)) {
+          result.agentDirs.push(...flags.agentDirs)
+        } else {
+          result.agentDirs = flags.agentDirs
+        }
+      }
       if (flags.histories) {result.chatsDir = flags.histories}
       if (flags.newChat) {result.newChat = flags.newChat}
       if (result.newChat === undefined && !result.interactive) {
