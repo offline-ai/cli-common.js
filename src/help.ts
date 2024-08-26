@@ -12,7 +12,13 @@ export function showBanner(s?: string) {
 export class CustomHelp extends Help {
   async showHelp(args: string[]) {
     // console.log(uText('AI Agent', 'green'));
-    showBanner();
+    const i = args.indexOf('--no-banner')
+    if (i === -1) {
+      showBanner()
+    } else {
+      args.splice(i, 1)
+    }
+
     super.showHelp(args);
     // console.dir('This will be displayed in multi-command CLIs', args);
   }
