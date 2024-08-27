@@ -1,7 +1,7 @@
 import path from 'path'
 import { defaultsDeep } from 'lodash-es'
 import {Command, Flags} from '@oclif/core'
-import { parseJsJson } from '@isdk/ai-tool'
+import { parseJsJson, parseObjectArgInfo } from '@isdk/ai-tool'
 import { DEFAULT_CONFIG_NAME, loadAIConfig, loadConfigFile } from './load-config'
 
 // const CONFIG_BASE_NAME = '.ai'
@@ -106,6 +106,26 @@ export abstract class AICommand extends Command {
       }
     }
 
+    if (flags.data) {
+      const data = await Promise.all(flags.data.map((item: string, i: number) => {
+        const ix = item.indexOf('=')
+        if (ix > 0) {
+          item = item.slice(0, ix) + ':' + item.slice(ix + 1)
+        }
+        return parseObjectArgInfo([true, item], i, result.data)
+      }))
+
+      if (result.hasOwnProperty('data')) {
+        result.data = typeof data !== 'string' ? defaultsDeep(data, result.data) : data
+      } else {
+        Object.defineProperty(result, 'data', {
+          value: data,
+          enumerable: false,
+          writable: true,
+        })
+      }
+    }
+
     if (!skipLoadHook) {await this.config.runHook('config:load', {id: this.id, userConfig: result})}
 
     return result
@@ -130,6 +150,7 @@ export const AICommonFlags = {
   stream: Flags.boolean({char: 'm', description: 'stream mode, defaults to true', allowNo: true}),
   script: Flags.string({char: 'f', description: 'the ai-agent script file name or id'}),
   dataFile: Flags.file({char: 'd', description: 'the data file which will be passed to the ai-agent script'}),
+  data: Flags.string({char: 'D', description: 'the data which will be passed to the ai-agent script: key1=value1 key2=value2', multiple: true }),
   arguments: Flags.string({
     char: 'a', description: 'the json data which will be passed to the ai-agent script',
     parse: (input: string) => parseJsJson(input),
