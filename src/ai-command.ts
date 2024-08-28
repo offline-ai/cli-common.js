@@ -1,7 +1,7 @@
 import path from 'path'
 import { defaultsDeep } from 'lodash-es'
 import {Command, Flags} from '@oclif/core'
-import { parseJsJson, parseObjectArgInfo } from '@isdk/ai-tool'
+import { parseJsJson, parseObjectArgumentInfos } from '@isdk/ai-tool'
 import { DEFAULT_CONFIG_NAME, loadAIConfig, loadConfigFile } from './load-config'
 
 // const CONFIG_BASE_NAME = '.ai'
@@ -107,13 +107,14 @@ export abstract class AICommand extends Command {
     }
 
     if (flags.data) {
-      const data = await Promise.all(flags.data.map((item: string, i: number) => {
+      let data: any = flags.data.map((item: string, i: number) => {
         const ix = item.indexOf('=')
         if (ix > 0) {
           item = item.slice(0, ix) + ':' + item.slice(ix + 1)
         }
-        return parseObjectArgInfo([true, item], i, result.data)
-      }))
+        return [true, item]
+      })
+      data = await parseObjectArgumentInfos(data)
 
       if (result.hasOwnProperty('data')) {
         result.data = typeof data !== 'string' ? defaultsDeep(data, result.data) : data
