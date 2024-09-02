@@ -557,7 +557,7 @@ Help.showCommandHelp
 
 #### Defined in
 
-[packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/f297c24732a55fc47890863ae8fe8e676753e752/src/help.ts#L26)
+[packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/2ac691c00db2ff9c2e2314a1bb7f00b4cdc25896/src/help.ts#L26)
 
 ___
 
@@ -581,7 +581,7 @@ Help.showHelp
 
 #### Defined in
 
-[packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/f297c24732a55fc47890863ae8fe8e676753e752/src/help.ts#L13)
+[packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/2ac691c00db2ff9c2e2314a1bb7f00b4cdc25896/src/help.ts#L13)
 
 ___
 
