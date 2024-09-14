@@ -173,4 +173,9 @@ export const AICommonFlags = {
     allowNo: true,
     // dependsOn: ['stream'],
   }),
+
+  streamEchoChars: Flags.integer({
+    char: 'e', description: 'stream echo max characters limit, defaults to no limit',
+    // dependsOn: ['stream'],
+  }),
 }
