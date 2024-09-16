@@ -139,7 +139,7 @@ export const AICommonFlags = {
   logLevel: Flags.string({
     char: 'l', description: 'the log level',
     aliases: ['loglevel', 'log-level'],
-    options: ['silence', 'fatal', 'error', 'warn', 'info', 'debug', 'trace'],
+    options: ['silence', 'fatal', 'error', 'warn', 'info', 'verbose', 'debug', 'trace'],
   }),
   interactive: Flags.boolean({char: 'i', description: 'interactive mode', allowNo: true}),
   histories: Flags.directory({char: 'h', description: 'the chat histories folder to record', exists: true}),
