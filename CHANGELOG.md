@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.0](https://github.com/offline-ai/cli-common.js/compare/v0.1.13...v0.2.0) (2024-09-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* add streamEchoChars option
+
+### Features
+
+* add streamEchoChars option ([d949b11](https://github.com/offline-ai/cli-common.js/commit/d949b1130576eb5a625a12779b416f80d7bbc40b))
+* add verbose to logLevel ([fe74985](https://github.com/offline-ai/cli-common.js/commit/fe749855c6aff6dda9e07a532b42a385d251cbb5))
+
 ## [0.1.13](https://github.com/offline-ai/cli-common.js/compare/v0.1.12...v0.1.13) (2024-09-02)
 
 ## [0.1.12](https://github.com/offline-ai/cli-common.js/compare/v0.1.11...v0.1.12) (2024-09-02)
