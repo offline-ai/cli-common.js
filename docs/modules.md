@@ -58,11 +58,12 @@
 | `script` | `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\> |
 | `stream` | `BooleanFlag`\<`boolean`\> |
 | `streamEcho` | `OptionFlag`\<`string`, `CustomOptions`\> |
+| `streamEchoChars` | `OptionFlag`\<`undefined` \| `number`, `CustomOptions`\> |
 | `userPreferredLanguage` | `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\> |
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:136](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/ai-command.ts#L136)
+[packages/cli-common/src/ai-command.ts:136](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/ai-command.ts#L136)
 
 ___
 
@@ -72,7 +73,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:1](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/load-config.ts#L1)
+[packages/cli-common/src/load-config.ts:1](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/load-config.ts#L1)
 
 ## Functions
 
@@ -93,7 +94,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:18](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/load-config.ts#L18)
+[packages/cli-common/src/load-config.ts:18](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/load-config.ts#L18)
 
 ___
 
@@ -114,7 +115,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:67](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/load-config.ts#L67)
+[packages/cli-common/src/load-config.ts:67](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/load-config.ts#L67)
 
 ___
 
@@ -141,7 +142,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:57](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/load-config.ts#L57)
+[packages/cli-common/src/load-config.ts:57](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/load-config.ts#L57)
 
 ___
 
@@ -161,7 +162,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:53](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/load-config.ts#L53)
+[packages/cli-common/src/load-config.ts:53](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/load-config.ts#L53)
 
 ___
 
@@ -182,7 +183,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:27](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/load-config.ts#L27)
+[packages/cli-common/src/load-config.ts:27](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/load-config.ts#L27)
 
 ___
 
@@ -203,7 +204,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/load-config.ts:9](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/load-config.ts#L9)
+[packages/cli-common/src/load-config.ts:9](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/load-config.ts#L9)
 
 ___
 
@@ -223,7 +224,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/help.ts#L6)
+[packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/help.ts#L6)
 
 ___
 
@@ -244,4 +245,4 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/u-text.ts#L17)
+[packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/u-text.ts#L17)

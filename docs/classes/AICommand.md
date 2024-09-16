@@ -270,7 +270,7 @@ Command.enableJsonFlag
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/ai-command.ts#L10)
+[packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/ai-command.ts#L10)
 
 ___
 
@@ -311,7 +311,7 @@ Command.flags
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:12](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/ai-command.ts#L12)
+[packages/cli-common/src/ai-command.ts:12](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/ai-command.ts#L12)
 
 ___
 
@@ -729,7 +729,7 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:17](https://github.com/offline-ai/cli-common.js/blob/eb1dc9523bb49cce90c4b880e1af57ec6fba37d2/src/ai-command.ts#L17)
+[packages/cli-common/src/ai-command.ts:17](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/ai-command.ts#L17)
 
 ___
 
