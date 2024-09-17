@@ -1,86 +1,26 @@
-[@offline-ai/cli-common](../README.md) / [Exports](../modules.md) / AICommand
+[**@offline-ai/cli-common**](../README.md) • **Docs**
 
-# Class: AICommand
+***
 
-## Hierarchy
+[@offline-ai/cli-common](../globals.md) / AICommand
+
+# Class: `abstract` AICommand
+
+## Extends
 
 - `Command`
 
-  ↳ **`AICommand`**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AICommand.md#constructor)
-
-### Properties
-
-- [argv](AICommand.md#argv)
-- [config](AICommand.md#config)
-- [debug](AICommand.md#debug)
-- [id](AICommand.md#id)
-- [aliases](AICommand.md#aliases)
-- [args](AICommand.md#args)
-- [baseFlags](AICommand.md#baseflags)
-- [deprecateAliases](AICommand.md#deprecatealiases)
-- [deprecationOptions](AICommand.md#deprecationoptions)
-- [description](AICommand.md#description)
-- [enableJsonFlag](AICommand.md#enablejsonflag)
-- [examples](AICommand.md#examples)
-- [flags](AICommand.md#flags)
-- [hasDynamicHelp](AICommand.md#hasdynamichelp)
-- [help](AICommand.md#help)
-- [hidden](AICommand.md#hidden)
-- [hiddenAliases](AICommand.md#hiddenaliases)
-- [id](AICommand.md#id-1)
-- [plugin](AICommand.md#plugin)
-- [pluginAlias](AICommand.md#pluginalias)
-- [pluginName](AICommand.md#pluginname)
-- [pluginType](AICommand.md#plugintype)
-- [state](AICommand.md#state)
-- [strict](AICommand.md#strict)
-- [summary](AICommand.md#summary)
-- [usage](AICommand.md#usage)
-
-### Accessors
-
-- [ctor](AICommand.md#ctor)
-
-### Methods
-
-- [\_run](AICommand.md#_run)
-- [catch](AICommand.md#catch)
-- [error](AICommand.md#error)
-- [exit](AICommand.md#exit)
-- [finally](AICommand.md#finally)
-- [init](AICommand.md#init)
-- [jsonEnabled](AICommand.md#jsonenabled)
-- [loadConfig](AICommand.md#loadconfig)
-- [log](AICommand.md#log)
-- [logJson](AICommand.md#logjson)
-- [logToStderr](AICommand.md#logtostderr)
-- [parse](AICommand.md#parse)
-- [run](AICommand.md#run)
-- [toErrorJson](AICommand.md#toerrorjson)
-- [toSuccessJson](AICommand.md#tosuccessjson)
-- [warn](AICommand.md#warn)
-- [warnIfCommandDeprecated](AICommand.md#warnifcommanddeprecated)
-- [warnIfFlagDeprecated](AICommand.md#warnifflagdeprecated)
-- [run](AICommand.md#run-1)
-
 ## Constructors
 
-### constructor
+### new AICommand()
 
-• **new AICommand**(`argv`, `config`): [`AICommand`](AICommand.md)
+> **new AICommand**(`argv`, `config`): [`AICommand`](AICommand.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `argv` | `string`[] |
-| `config` | `Config` |
+• **argv**: `string`[]
+
+• **config**: `Config`
 
 #### Returns
 
@@ -88,163 +28,157 @@
 
 #### Inherited from
 
-Command.constructor
+`Command.constructor`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:76
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:76
 
 ## Properties
 
 ### argv
 
-• **argv**: `string`[]
+> **argv**: `string`[]
 
 #### Inherited from
 
-Command.argv
+`Command.argv`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:12
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:12
 
-___
+***
 
 ### config
 
-• **config**: `Config`
+> **config**: `Config`
 
 #### Inherited from
 
-Command.config
+`Command.config`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:13
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:13
 
-___
+***
 
-### debug
+### debug()
 
-• `Protected` **debug**: (...`args`: `any`[]) => `void`
+> `protected` **debug**: (...`args`) => `void`
 
-#### Type declaration
+#### Parameters
 
-▸ (`...args`): `void`
+• ...**args**: `any`[]
 
-##### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `...args` | `any`[] |
-
-##### Returns
+#### Returns
 
 `void`
 
 #### Inherited from
 
-Command.debug
+`Command.debug`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:73
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:73
 
-___
+***
 
 ### id
 
-• **id**: `undefined` \| `string`
+> **id**: `undefined` \| `string`
 
 #### Inherited from
 
-Command.id
+`Command.id`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:74
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:74
 
-___
+***
 
 ### aliases
 
-▪ `Static` **aliases**: `string`[]
+> `static` **aliases**: `string`[]
 
 An array of aliases for this command.
 
 #### Inherited from
 
-Command.aliases
+`Command.aliases`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:15
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:15
 
-___
+***
 
 ### args
 
-▪ `Static` **args**: `ArgInput`\<\{ `[arg: string]`: `any`;  }\>
+> `static` **args**: `ArgInput`\<`object`\>
 
 An order-dependent object of arguments for the command
 
 #### Inherited from
 
-Command.args
+`Command.args`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:17
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:17
 
-___
+***
 
 ### baseFlags
 
-▪ `Static` **baseFlags**: `FlagInput`\<\{ `[flag: string]`: `any`;  }\>
+> `static` **baseFlags**: `FlagInput`\<`object`\>
 
 #### Inherited from
 
-Command.baseFlags
+`Command.baseFlags`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:18
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:18
 
-___
+***
 
-### deprecateAliases
+### deprecateAliases?
 
-▪ `Static` `Optional` **deprecateAliases**: `boolean`
+> `static` `optional` **deprecateAliases**: `boolean`
 
 Emit deprecation warning when a command alias is used
 
 #### Inherited from
 
-Command.deprecateAliases
+`Command.deprecateAliases`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:22
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:22
 
-___
+***
 
-### deprecationOptions
+### deprecationOptions?
 
-▪ `Static` `Optional` **deprecationOptions**: `Deprecation`
+> `static` `optional` **deprecationOptions**: `Deprecation`
 
 #### Inherited from
 
-Command.deprecationOptions
+`Command.deprecationOptions`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:23
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:23
 
-___
+***
 
 ### description
 
-▪ `Static` **description**: `undefined` \| `string`
+> `static` **description**: `undefined` \| `string`
 
 A full description of how to use the command.
 
@@ -252,31 +186,31 @@ If no summary, the first line of the description will be used as the summary.
 
 #### Inherited from
 
-Command.description
+`Command.description`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:29
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:29
 
-___
+***
 
 ### enableJsonFlag
 
-▪ `Static` **enableJsonFlag**: `boolean` = `true`
+> `static` **enableJsonFlag**: `boolean` = `true`
 
 #### Overrides
 
-Command.enableJsonFlag
+`Command.enableJsonFlag`
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/ai-command.ts#L10)
+[packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/9af76941d1d5f7e2eec300150a7cf9fdd19a1e04/src/ai-command.ts#L10)
 
-___
+***
 
 ### examples
 
-▪ `Static` **examples**: `Example`[]
+> `static` **examples**: `Example`[]
 
 An array of examples to show at the end of the command's help.
 
@@ -293,252 +227,252 @@ EXAMPLES:
 
 #### Inherited from
 
-Command.examples
+`Command.examples`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:45
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:45
 
-___
+***
 
 ### flags
 
-▪ `Static` **flags**: `Record`\<`string`, `any`\>
+> `static` **flags**: `Record`\<`string`, `any`\>
+
+A hash of flags for the command
 
 #### Overrides
 
-Command.flags
+`Command.flags`
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:12](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/ai-command.ts#L12)
+[packages/cli-common/src/ai-command.ts:12](https://github.com/offline-ai/cli-common.js/blob/9af76941d1d5f7e2eec300150a7cf9fdd19a1e04/src/ai-command.ts#L12)
 
-___
+***
 
 ### hasDynamicHelp
 
-▪ `Static` **hasDynamicHelp**: `boolean`
+> `static` **hasDynamicHelp**: `boolean`
 
 #### Inherited from
 
-Command.hasDynamicHelp
+`Command.hasDynamicHelp`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:48
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:48
 
-___
+***
 
 ### help
 
-▪ `Static` **help**: `undefined` \| `string`
+> `static` **help**: `undefined` \| `string`
 
 #### Inherited from
 
-Command.help
+`Command.help`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:49
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:49
 
-___
+***
 
 ### hidden
 
-▪ `Static` **hidden**: `boolean`
+> `static` **hidden**: `boolean`
 
 Hide the command from help
 
 #### Inherited from
 
-Command.hidden
+`Command.hidden`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:51
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:51
 
-___
+***
 
 ### hiddenAliases
 
-▪ `Static` **hiddenAliases**: `string`[]
+> `static` **hiddenAliases**: `string`[]
 
 An array of aliases for this command that are hidden from help.
 
 #### Inherited from
 
-Command.hiddenAliases
+`Command.hiddenAliases`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:53
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:53
 
-___
+***
 
 ### id
 
-▪ `Static` **id**: `string`
+> `static` **id**: `string`
 
 A command ID, used mostly in error or verbose reporting.
 
 #### Inherited from
 
-Command.id
+`Command.id`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:55
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:55
 
-___
+***
 
 ### plugin
 
-▪ `Static` **plugin**: `undefined` \| `Plugin`
+> `static` **plugin**: `undefined` \| `Plugin`
 
 #### Inherited from
 
-Command.plugin
+`Command.plugin`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:56
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:56
 
-___
+***
 
-### pluginAlias
+### pluginAlias?
 
-▪ `Static` `Optional` `Readonly` **pluginAlias**: `string`
+> `readonly` `static` `optional` **pluginAlias**: `string`
 
 #### Inherited from
 
-Command.pluginAlias
+`Command.pluginAlias`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:57
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:57
 
-___
+***
 
-### pluginName
+### pluginName?
 
-▪ `Static` `Optional` `Readonly` **pluginName**: `string`
+> `readonly` `static` `optional` **pluginName**: `string`
 
 #### Inherited from
 
-Command.pluginName
+`Command.pluginName`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:58
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:58
 
-___
+***
 
-### pluginType
+### pluginType?
 
-▪ `Static` `Optional` `Readonly` **pluginType**: `string`
+> `readonly` `static` `optional` **pluginType**: `string`
 
 #### Inherited from
 
-Command.pluginType
+`Command.pluginType`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:59
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:59
 
-___
+***
 
-### state
+### state?
 
-▪ `Static` `Optional` **state**: `string`
+> `static` `optional` **state**: `string`
 
 Mark the command as a given state (e.g. beta or deprecated) in help
 
 #### Inherited from
 
-Command.state
+`Command.state`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:61
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:61
 
-___
+***
 
 ### strict
 
-▪ `Static` **strict**: `boolean`
+> `static` **strict**: `boolean`
 
 When set to false, allows a variable amount of arguments
 
 #### Inherited from
 
-Command.strict
+`Command.strict`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:63
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:63
 
-___
+***
 
-### summary
+### summary?
 
-▪ `Static` `Optional` **summary**: `string`
+> `static` `optional` **summary**: `string`
 
 The tweet-sized description for your class, used in a parent-commands
 sub-command listing and as the header for the command help.
 
 #### Inherited from
 
-Command.summary
+`Command.summary`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:68
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:68
 
-___
+***
 
 ### usage
 
-▪ `Static` **usage**: `undefined` \| `string` \| `string`[]
+> `static` **usage**: `undefined` \| `string` \| `string`[]
 
 An override string (or strings) for the default usage documentation.
 
 #### Inherited from
 
-Command.usage
+`Command.usage`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:72
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:72
 
 ## Accessors
 
 ### ctor
 
-• `get` **ctor**(): typeof `Command`
+> `get` `protected` **ctor**(): *typeof* `Command`
 
 #### Returns
 
-typeof `Command`
+*typeof* `Command`
 
 #### Inherited from
 
-Command.ctor
+`Command.ctor`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:90
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:90
 
 ## Methods
 
-### \_run
+### \_run()
 
-▸ **_run**\<`T`\>(): `Promise`\<`T`\>
+> `protected` **\_run**\<`T`\>(): `Promise`\<`T`\>
 
-#### Type parameters
+#### Type Parameters
 
-| Name |
-| :------ |
-| `T` |
+• **T**
 
 #### Returns
 
@@ -546,23 +480,21 @@ node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:
 
 #### Inherited from
 
-Command.\_run
+`Command._run`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:118
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:118
 
-___
+***
 
-### catch
+### catch()
 
-▸ **catch**(`err`): `Promise`\<`any`\>
+> `protected` **catch**(`err`): `Promise`\<`any`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `err` | `CommandError` |
+• **err**: `CommandError`
 
 #### Returns
 
@@ -570,45 +502,69 @@ ___
 
 #### Inherited from
 
-Command.catch
+`Command.catch`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:91
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:91
 
-___
+***
 
-### error
+### error()
 
-▸ **error**(`input`, `options`): `void`
+#### error(input, options)
 
-#### Parameters
+> **error**(`input`, `options`): `void`
 
-| Name | Type |
-| :------ | :------ |
-| `input` | `string` \| `Error` |
-| `options` | \{ `code?`: `string` ; `exit`: ``false``  } & `PrettyPrintableError` |
+##### Parameters
 
-#### Returns
+• **input**: `string` \| `Error`
+
+• **options**: `object` & `PrettyPrintableError`
+
+##### Returns
 
 `void`
 
-#### Inherited from
+##### Inherited from
 
-Command.error
+`Command.error`
 
-#### Defined in
+##### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:92
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:92
 
-▸ **error**(`input`, `options?`): `never`
+#### error(input, options)
+
+> **error**(`input`, `options`?): `never`
+
+##### Parameters
+
+• **input**: `string` \| `Error`
+
+• **options?**: `object` & `PrettyPrintableError`
+
+##### Returns
+
+`never`
+
+##### Inherited from
+
+`Command.error`
+
+##### Defined in
+
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:96
+
+***
+
+### exit()
+
+> **exit**(`code`?): `never`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `input` | `string` \| `Error` |
-| `options?` | \{ `code?`: `string` ; `exit?`: `number`  } & `PrettyPrintableError` |
+• **code?**: `number`
 
 #### Returns
 
@@ -616,47 +572,21 @@ node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:
 
 #### Inherited from
 
-Command.error
+`Command.exit`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:96
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:100
 
-___
+***
 
-### exit
+### finally()
 
-▸ **exit**(`code?`): `never`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `code?` | `number` |
-
-#### Returns
-
-`never`
-
-#### Inherited from
-
-Command.exit
-
-#### Defined in
-
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:100
-
-___
-
-### finally
-
-▸ **finally**(`_`): `Promise`\<`any`\>
+> `protected` **finally**(`_`): `Promise`\<`any`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `_` | `undefined` \| `Error` |
+• **\_**: `undefined` \| `Error`
 
 #### Returns
 
@@ -664,17 +594,17 @@ ___
 
 #### Inherited from
 
-Command.finally
+`Command.finally`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:101
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:101
 
-___
+***
 
-### init
+### init()
 
-▸ **init**(): `Promise`\<`any`\>
+> `protected` **init**(): `Promise`\<`any`\>
 
 #### Returns
 
@@ -682,17 +612,17 @@ ___
 
 #### Inherited from
 
-Command.init
+`Command.init`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:102
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:102
 
-___
+***
 
-### jsonEnabled
+### jsonEnabled()
 
-▸ **jsonEnabled**(): `boolean`
+> **jsonEnabled**(): `boolean`
 
 Determine if the command is being run with the --json flag in a command that supports it.
 
@@ -704,24 +634,23 @@ true if the command supports json and the --json flag is present
 
 #### Inherited from
 
-Command.jsonEnabled
+`Command.jsonEnabled`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:108
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:108
 
-___
+***
 
-### loadConfig
+### loadConfig()
 
-▸ **loadConfig**(`configFile?`, `«destructured»?`): `Promise`\<`any`\>
+> **loadConfig**(`configFile`?, `__namedParameters`?): `Promise`\<`any`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `configFile?` | `string` |
-| `«destructured»` | `any` |
+• **configFile?**: `string`
+
+• **\_\_namedParameters?**: `any` = `{}`
 
 #### Returns
 
@@ -729,20 +658,19 @@ ___
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:17](https://github.com/offline-ai/cli-common.js/blob/fe749855c6aff6dda9e07a532b42a385d251cbb5/src/ai-command.ts#L17)
+[packages/cli-common/src/ai-command.ts:17](https://github.com/offline-ai/cli-common.js/blob/9af76941d1d5f7e2eec300150a7cf9fdd19a1e04/src/ai-command.ts#L17)
 
-___
+***
 
-### log
+### log()
 
-▸ **log**(`message?`, `...args`): `void`
+> **log**(`message`?, ...`args`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `message?` | `string` |
-| `...args` | `any`[] |
+• **message?**: `string`
+
+• ...**args?**: `any`[]
 
 #### Returns
 
@@ -750,23 +678,21 @@ ___
 
 #### Inherited from
 
-Command.log
+`Command.log`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:109
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:109
 
-___
+***
 
-### logJson
+### logJson()
 
-▸ **logJson**(`json`): `void`
+> `protected` **logJson**(`json`): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `json` | `unknown` |
+• **json**: `unknown`
 
 #### Returns
 
@@ -774,24 +700,23 @@ ___
 
 #### Inherited from
 
-Command.logJson
+`Command.logJson`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:110
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:110
 
-___
+***
 
-### logToStderr
+### logToStderr()
 
-▸ **logToStderr**(`message?`, `...args`): `void`
+> **logToStderr**(`message`?, ...`args`?): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `message?` | `string` |
-| `...args` | `any`[] |
+• **message?**: `string`
+
+• ...**args?**: `any`[]
 
 #### Returns
 
@@ -799,32 +724,31 @@ ___
 
 #### Inherited from
 
-Command.logToStderr
+`Command.logToStderr`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:111
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:111
 
-___
+***
 
-### parse
+### parse()
 
-▸ **parse**\<`F`, `B`, `A`\>(`options?`, `argv?`): `Promise`\<`ParserOutput`\<`F`, `B`, `A`\>\>
+> `protected` **parse**\<`F`, `B`, `A`\>(`options`?, `argv`?): `Promise`\<`ParserOutput`\<`F`, `B`, `A`\>\>
 
-#### Type parameters
+#### Type Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `F` | extends `FlagOutput` |
-| `B` | extends `FlagOutput` |
-| `A` | extends `ArgOutput` |
+• **F** *extends* `FlagOutput`
+
+• **B** *extends* `FlagOutput`
+
+• **A** *extends* `ArgOutput`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `options?` | `Input`\<`F`, `B`, `A`\> |
-| `argv?` | `string`[] |
+• **options?**: `Input`\<`F`, `B`, `A`\>
+
+• **argv?**: `string`[]
 
 #### Returns
 
@@ -832,17 +756,17 @@ ___
 
 #### Inherited from
 
-Command.parse
+`Command.parse`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:112
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:112
 
-___
+***
 
-### run
+### run()
 
-▸ **run**(): `Promise`\<`any`\>
+> `abstract` **run**(): `Promise`\<`any`\>
 
 actual command run code goes here
 
@@ -852,23 +776,21 @@ actual command run code goes here
 
 #### Inherited from
 
-Command.run
+`Command.run`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:80
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:80
 
-___
+***
 
-### toErrorJson
+### toErrorJson()
 
-▸ **toErrorJson**(`err`): `any`
+> `protected` **toErrorJson**(`err`): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `err` | `unknown` |
+• **err**: `unknown`
 
 #### Returns
 
@@ -876,23 +798,21 @@ ___
 
 #### Inherited from
 
-Command.toErrorJson
+`Command.toErrorJson`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:113
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:113
 
-___
+***
 
-### toSuccessJson
+### toSuccessJson()
 
-▸ **toSuccessJson**(`result`): `any`
+> `protected` **toSuccessJson**(`result`): `any`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `result` | `unknown` |
+• **result**: `unknown`
 
 #### Returns
 
@@ -900,23 +820,21 @@ ___
 
 #### Inherited from
 
-Command.toSuccessJson
+`Command.toSuccessJson`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:114
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:114
 
-___
+***
 
-### warn
+### warn()
 
-▸ **warn**(`input`): `string` \| `Error`
+> **warn**(`input`): `string` \| `Error`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `input` | `string` \| `Error` |
+• **input**: `string` \| `Error`
 
 #### Returns
 
@@ -924,17 +842,17 @@ ___
 
 #### Inherited from
 
-Command.warn
+`Command.warn`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:115
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:115
 
-___
+***
 
-### warnIfCommandDeprecated
+### warnIfCommandDeprecated()
 
-▸ **warnIfCommandDeprecated**(): `void`
+> `protected` **warnIfCommandDeprecated**(): `void`
 
 #### Returns
 
@@ -942,23 +860,21 @@ ___
 
 #### Inherited from
 
-Command.warnIfCommandDeprecated
+`Command.warnIfCommandDeprecated`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:116
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:116
 
-___
+***
 
-### warnIfFlagDeprecated
+### warnIfFlagDeprecated()
 
-▸ **warnIfFlagDeprecated**(`flags`): `void`
+> `protected` **warnIfFlagDeprecated**(`flags`): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `flags` | `Record`\<`string`, `unknown`\> |
+• **flags**: `Record`\<`string`, `unknown`\>
 
 #### Returns
 
@@ -966,44 +882,48 @@ ___
 
 #### Inherited from
 
-Command.warnIfFlagDeprecated
+`Command.warnIfFlagDeprecated`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:117
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:117
 
-___
+***
 
-### run
+### run()
 
-▸ **run**\<`T`\>(`this`, `argv?`, `opts?`): `Promise`\<`ReturnType`\<`T`[``"run"``]\>\>
+> `static` **run**\<`T`\>(`this`, `argv`?, `opts`?): `Promise`\<`ReturnType`\<`T`\[`"run"`\]\>\>
 
 instantiate and run the command
 
-#### Type parameters
+#### Type Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `T` | extends `Command` |
+• **T** *extends* `Command`
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `this` | (`argv`: `string`[], `config`: `Config`) => `T` | the command class |
-| `argv?` | `string`[] | argv |
-| `opts?` | `LoadOptions` | options |
+• **this**
+
+the command class
+
+• **argv?**: `string`[]
+
+argv
+
+• **opts?**: `LoadOptions`
+
+options
 
 #### Returns
 
-`Promise`\<`ReturnType`\<`T`[``"run"``]\>\>
+`Promise`\<`ReturnType`\<`T`\[`"run"`\]\>\>
 
 result
 
 #### Inherited from
 
-Command.run
+`Command.run`
 
 #### Defined in
 
-node_modules/.pnpm/@oclif+core@4.0.17/node_modules/@oclif/core/lib/command.d.ts:89
+node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:89
