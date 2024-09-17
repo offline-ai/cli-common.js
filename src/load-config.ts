@@ -30,7 +30,7 @@ export function loadConfig(filename: string, config: Config) {
     defaultConfig = {
       configDirs: ['$XDG_BIN_HOME', config.configDir, '$HOME'],
       brainDir: [path.join(config.dataDir, 'brain')],
-      agentDirs: [path.join(config.dataDir, 'agent'), '$PWD'],
+      agentDirs: [path.join(config.dataDir, 'agent')],
       promptDirs: [path.join(config.dataDir, 'prompt')],
       chatsDir: path.join(config.dataDir, 'log', 'chats'),
       inputsDir: path.join(config.dataDir, 'log', 'inputs'),
