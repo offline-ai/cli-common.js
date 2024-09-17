@@ -480,7 +480,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-[packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/9af76941d1d5f7e2eec300150a7cf9fdd19a1e04/src/help.ts#L26)
+[packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/b6664d49a02f285de40420426c76fe42aa993479/src/help.ts#L26)
 
 ***
 
@@ -502,7 +502,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-[packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/9af76941d1d5f7e2eec300150a7cf9fdd19a1e04/src/help.ts#L13)
+[packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/b6664d49a02f285de40420426c76fe42aa993479/src/help.ts#L13)
 
 ***
 
