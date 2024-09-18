@@ -142,7 +142,7 @@ export const AICommonFlags = {
     options: ['silence', 'fatal', 'error', 'warn', 'info', 'verbose', 'debug', 'trace'],
   }),
   interactive: Flags.boolean({char: 'i', description: 'interactive mode', allowNo: true}),
-  histories: Flags.directory({char: 'h', description: 'the chat histories folder to record', exists: true}),
+  histories: Flags.directory({description: 'the chat histories folder to record', exists: true}),
   newChat: Flags.boolean({char:'n', aliases:['new-chat'], description: 'whether to start a new chat history, defaults to false in interactive mode, true in non-interactive', allowNo: true}),
   backupChat: Flags.boolean({char:'k', aliases:['backup-chat'], description: 'whether to backup chat history before start, defaults to false'}),
   inputs: Flags.directory({char: 't', description: 'the input histories folder for interactive mode to record', exists: true, dependsOn: ['interactive']}),
