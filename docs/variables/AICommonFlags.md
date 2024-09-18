@@ -96,4 +96,4 @@
 
 ## Defined in
 
-[packages/cli-common/src/ai-command.ts:136](https://github.com/offline-ai/cli-common.js/blob/b6664d49a02f285de40420426c76fe42aa993479/src/ai-command.ts#L136)
+[packages/cli-common/src/ai-command.ts:137](https://github.com/offline-ai/cli-common.js/blob/eacfc3b6b6764ad13be930ba79e99d61c05d0c01/src/ai-command.ts#L137)
