@@ -2,6 +2,7 @@ import path from 'path'
 import { defaultsDeep } from 'lodash-es'
 import {Command, Flags} from '@oclif/core'
 import { parseJsJson, parseObjectArgumentInfos } from '@isdk/ai-tool'
+import { LogLevelMap } from '@isdk/ai-tool-agent'
 import { DEFAULT_CONFIG_NAME, loadAIConfig, loadConfigFile } from './load-config'
 
 // const CONFIG_BASE_NAME = '.ai'
@@ -139,7 +140,7 @@ export const AICommonFlags = {
   logLevel: Flags.string({
     char: 'l', description: 'the log level',
     aliases: ['loglevel', 'log-level'],
-    options: ['silence', 'fatal', 'error', 'warn', 'info', 'verbose', 'debug', 'trace'],
+    options: Object.keys(LogLevelMap),
   }),
   interactive: Flags.boolean({char: 'i', description: 'interactive mode', allowNo: true}),
   histories: Flags.directory({description: 'the chat histories folder to record', exists: true}),
