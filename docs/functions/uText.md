@@ -6,7 +6,7 @@
 
 # Function: uText()
 
-> **uText**(`s`, `options`): `any`
+> **uText**(`s`, `options`): `string`
 
 ## Parameters
 
@@ -16,8 +16,8 @@
 
 ## Returns
 
-`any`
+`string`
 
 ## Defined in
 
-[packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/eacfc3b6b6764ad13be930ba79e99d61c05d0c01/src/u-text.ts#L17)
+[packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/6110be32dd71d006a547f3ce0453d9f2661e8819/src/u-text.ts#L17)
