@@ -136,6 +136,7 @@ export abstract class AICommand extends Command {
 
 export const AICommonFlags = {
   api: Flags.url({char: 'u', description: 'the api URL'}),
+  apiKey: Flags.string({description: 'the api key (optional)'}),
   agentDirs: Flags.directory({char: 's', description: 'the search paths for ai-agent script file', exists: true, multiple: true}),
   logLevel: Flags.string({
     char: 'l', description: 'the log level',
