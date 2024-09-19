@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.4](https://github.com/offline-ai/cli-common.js/compare/v0.2.3...v0.2.4) (2024-09-19)
+
+
+### Features
+
+* can disable color by none color for uText ([985c95b](https://github.com/offline-ai/cli-common.js/commit/985c95bbc9acc132954c7b8c79194e78914ee770))
+
+
+### Refactor
+
+* following LogLevelMap ([9af2d75](https://github.com/offline-ai/cli-common.js/commit/9af2d75f1537d327b148405e8db94f0f610c4c02))
+
 ## [0.2.3](https://github.com/offline-ai/cli-common.js/compare/v0.2.2...v0.2.3) (2024-09-18)
 
 
