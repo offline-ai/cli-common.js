@@ -22,9 +22,11 @@ export function uText(s: string, options: any= {}) {
   }
       // horizontalLayout: 'default',
       // verticalLayout: 'default',
-  return colors[color as any](
-    textSync(s, options)
-  );
+  let result = textSync(s, options)
+  if (color !== 'none') {
+    result = colors[color as any](result)
+  }
+  return result
 }
 
 // import cfonts from 'cfonts'
