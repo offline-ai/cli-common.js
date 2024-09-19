@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[packages/cli-common/src/load-config.ts:1](https://github.com/offline-ai/cli-common.js/blob/6110be32dd71d006a547f3ce0453d9f2661e8819/src/load-config.ts#L1)
+[packages/cli-common/src/load-config.ts:1](https://github.com/offline-ai/cli-common.js/blob/8f7a4853f9e9b9699f10098c26758418574da1bb/src/load-config.ts#L1)
