@@ -180,4 +180,8 @@ export const AICommonFlags = {
     char: 'e', description: 'stream echo max characters limit, defaults to no limit',
     // dependsOn: ['stream'],
   }),
+
+  provider: Flags.string({
+    char: 'P', description: 'the LLM provider, defaults to llamacpp',
+  }),
 }
