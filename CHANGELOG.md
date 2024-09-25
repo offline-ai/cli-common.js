@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.12](https://github.com/offline-ai/cli-common.js/compare/v0.2.11...v0.2.12) (2024-09-25)
+
+
+### Features
+
+* add provider flag ([3cba934](https://github.com/offline-ai/cli-common.js/commit/3cba9345434fb2e5ce573f02749f35e042b2256a))
+
 ## [0.2.11](https://github.com/offline-ai/cli-common.js/compare/v0.2.10...v0.2.11) (2024-09-19)
 
 ## [0.2.10](https://github.com/offline-ai/cli-common.js/compare/v0.2.9...v0.2.10) (2024-09-19)
