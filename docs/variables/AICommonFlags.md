@@ -78,6 +78,10 @@
 
 > **promptDirs**: `OptionFlag`\<`undefined` \| `string`[], `CustomOptions`\>
 
+### provider
+
+> **provider**: `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\>
+
 ### script
 
 > **script**: `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\>
@@ -100,4 +104,4 @@
 
 ## Defined in
 
-[packages/cli-common/src/ai-command.ts:137](https://github.com/offline-ai/cli-common.js/blob/f6a85180bf9380ea5724491bad10640d89b65446/src/ai-command.ts#L137)
+[packages/cli-common/src/ai-command.ts:137](https://github.com/offline-ai/cli-common.js/blob/3cba9345434fb2e5ce573f02749f35e042b2256a/src/ai-command.ts#L137)
