@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.13](https://github.com/offline-ai/cli-common.js/compare/v0.2.12...v0.2.13) (2024-09-30)
+
+
+### Features
+
+* add logLevelMaxLen flag ([2d53abf](https://github.com/offline-ai/cli-common.js/commit/2d53abf8afb8587ffdfc1f85181f5f61366d5241))
+
 ## [0.2.12](https://github.com/offline-ai/cli-common.js/compare/v0.2.11...v0.2.12) (2024-09-25)
 
 
