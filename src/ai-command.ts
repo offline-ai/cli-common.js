@@ -2,7 +2,7 @@ import path from 'path'
 import { defaultsDeep } from 'lodash-es'
 import {Command, Flags} from '@oclif/core'
 import { parseJsJson, parseObjectArgumentInfos } from '@isdk/ai-tool'
-import { LogLevelMap } from '@isdk/ai-tool-agent'
+import { LogLevelMap, logLevel } from '@isdk/ai-tool-agent'
 import { DEFAULT_CONFIG_NAME, loadAIConfig, loadConfigFile } from './load-config'
 
 // const CONFIG_BASE_NAME = '.ai'
@@ -27,6 +27,10 @@ export abstract class AICommand extends Command {
     }
     result.theme = this.config.theme
     if (flags) {
+      if (typeof flags.logLevelMaxLen === 'number') {
+        logLevel.maxLength = flags.logLevelMaxLen
+      }
+
       if (flags.streamEcho) {
         if ((flags.streamEcho[0]).toLowerCase() === 'f') {
           result.streamEcho = false
@@ -142,6 +146,11 @@ export const AICommonFlags = {
     char: 'l', description: 'the log level',
     aliases: ['loglevel', 'log-level'],
     options: Object.keys(LogLevelMap),
+  }),
+  logLevelMaxLen: Flags.integer({
+    aliases: ['loglen'],
+    description: 'the max length of log item to display',
+    dependsOn: ['logLevel'],
   }),
   interactive: Flags.boolean({char: 'i', description: 'interactive mode', allowNo: true}),
   histories: Flags.directory({description: 'the chat histories folder to record', exists: true}),
