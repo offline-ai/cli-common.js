@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.14](https://github.com/offline-ai/cli-common.js/compare/v0.2.13...v0.2.14) (2024-10-04)
+
 ## [0.2.13](https://github.com/offline-ai/cli-common.js/compare/v0.2.12...v0.2.13) (2024-09-30)
 
 
