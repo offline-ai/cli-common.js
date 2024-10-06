@@ -179,14 +179,15 @@ export const AICommonFlags = {
   }),
   streamEcho: Flags.string({
     char: 'e', description: 'stream echo mode, defaults to true',
-    default: 'true',
+    default: 'line',
     options: ['true', 'false', 'line'],
     allowNo: true,
     // dependsOn: ['stream'],
   }),
 
   streamEchoChars: Flags.integer({
-    char: 'e', description: 'stream echo max characters limit, defaults to no limit',
+    char: 'e', description: 'stream echo max characters limit',
+    default: 80,
     // dependsOn: ['stream'],
   }),
 
