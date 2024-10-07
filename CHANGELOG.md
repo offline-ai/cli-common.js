@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.3.0](https://github.com/offline-ai/cli-common.js/compare/v0.2.14...v0.3.0) (2024-10-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* change default streamEcho to line and streamEchoChars to 80
+
+### Refactor
+
+* change default streamEcho to line and streamEchoChars to 80 ([c6b6ebe](https://github.com/offline-ai/cli-common.js/commit/c6b6ebef12f266cbe7a5dab619126441227e0b13))
+* remove single char alias for config flag ([dc4a3d3](https://github.com/offline-ai/cli-common.js/commit/dc4a3d3ac6eb2833ca38c81e2f7d617683e5fdc3))
+
 ## [0.2.14](https://github.com/offline-ai/cli-common.js/compare/v0.2.13...v0.2.14) (2024-10-04)
 
 ## [0.2.13](https://github.com/offline-ai/cli-common.js/compare/v0.2.12...v0.2.13) (2024-09-30)
