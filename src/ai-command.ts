@@ -11,7 +11,7 @@ export abstract class AICommand extends Command {
   static enableJsonFlag = true
 
   static flags : Record<string, any> = {
-    config: Flags.file({char: 'c', description: 'the config file', exists: true}),
+    config: Flags.file({description: 'the config file', exists: true}),
     banner: Flags.boolean({description: 'show banner', allowNo: true}),
   }
 
@@ -186,7 +186,7 @@ export const AICommonFlags = {
   }),
 
   streamEchoChars: Flags.integer({
-    char: 'e', description: 'stream echo max characters limit',
+    char: 'C', description: 'stream echo max characters limit',
     default: 80,
     // dependsOn: ['stream'],
   }),
