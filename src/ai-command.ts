@@ -178,7 +178,7 @@ export const AICommonFlags = {
     aliases: ['ai-preferred-language'],
   }),
   streamEcho: Flags.string({
-    char: 'e', description: 'stream echo mode, defaults to true',
+    char: 'e', description: 'stream echo mode',
     default: 'line',
     options: ['true', 'false', 'line'],
     allowNo: true,
