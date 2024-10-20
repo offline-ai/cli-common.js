@@ -2,7 +2,7 @@ import path from 'path'
 import { defaultsDeep } from 'lodash-es'
 import {Command, Flags} from '@oclif/core'
 import { parseJsJson, parseObjectArgumentInfos } from '@isdk/ai-tool'
-import { LogLevelMap, logLevel } from '@isdk/ai-tool-agent'
+import { LogLevelMap, setSprintfMaxLength } from '@isdk/ai-tool-agent'
 import { DEFAULT_CONFIG_NAME, loadAIConfig, loadConfigFile } from './load-config'
 
 // const CONFIG_BASE_NAME = '.ai'
@@ -28,7 +28,7 @@ export abstract class AICommand extends Command {
     result.theme = this.config.theme
     if (flags) {
       if (typeof flags.logLevelMaxLen === 'number') {
-        logLevel.maxLength = flags.logLevelMaxLen
+        setSprintfMaxLength(flags.logLevelMaxLen)
       }
 
       if (flags.streamEcho) {
@@ -165,7 +165,7 @@ export const AICommonFlags = {
   data: Flags.string({char: 'D', description: 'the data which will be passed to the ai-agent script: key1=value1 key2=value2', multiple: true }),
   arguments: Flags.string({
     char: 'a', description: 'the json data which will be passed to the ai-agent script',
-    parse: (input: string) => parseJsJson(input),
+    parse: async (input: string) => await parseJsJson(input),
   }),
   brainDir: Flags.directory({char: 'b', description: 'the brains(LLM) directory', exists: true}),
   promptDirs: Flags.directory({char: 'p', description: 'the prompts template directory', exists: true, multiple: true}),
