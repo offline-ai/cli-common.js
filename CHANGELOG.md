@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.3.1](https://github.com/offline-ai/cli-common.js/compare/v0.3.0...v0.3.1) (2024-12-15)
+
+
+### Bug Fixes
+
+* the default value is wrong ([6d25bfa](https://github.com/offline-ai/cli-common.js/commit/6d25bfa6433bcbe2954f5b4a6b613e2fc15cf45f))
+
+
+### Refactor
+
+* follow upstream ([d5aa74f](https://github.com/offline-ai/cli-common.js/commit/d5aa74f3d627a293c34b73dd3313be6bf10c9958))
+
 ## [0.3.0](https://github.com/offline-ai/cli-common.js/compare/v0.2.14...v0.3.0) (2024-10-07)
 
 
