@@ -32,7 +32,7 @@
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:24
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:24
 
 ## Properties
 
@@ -46,7 +46,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:23
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:23
 
 ***
 
@@ -60,7 +60,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/formatter.d.ts:17
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:17
 
 ***
 
@@ -74,7 +74,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/formatter.d.ts:18
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:18
 
 ***
 
@@ -88,7 +88,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/formatter.d.ts:19
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:19
 
 ***
 
@@ -117,7 +117,7 @@ Takes a string and replaces `<%= prop =>` with the value of prop, where prop is 
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/formatter.d.ts:28
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:28
 
 ## Accessors
 
@@ -135,7 +135,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:25
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:25
 
 ***
 
@@ -153,7 +153,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:26
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:26
 
 ## Methods
 
@@ -175,7 +175,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:27
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:27
 
 ***
 
@@ -197,7 +197,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:28
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:28
 
 ***
 
@@ -219,7 +219,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:29
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:29
 
 ***
 
@@ -241,7 +241,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:30
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:30
 
 ***
 
@@ -259,7 +259,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:31
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:31
 
 ***
 
@@ -281,7 +281,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:32
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:32
 
 ***
 
@@ -303,7 +303,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:33
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:33
 
 ***
 
@@ -325,7 +325,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:34
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:34
 
 ***
 
@@ -380,7 +380,7 @@ the formatted indented text
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/formatter.d.ts:59
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:59
 
 ***
 
@@ -402,7 +402,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:35
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:35
 
 ***
 
@@ -434,7 +434,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/formatter.d.ts:60
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:60
 
 ***
 
@@ -458,7 +458,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/formatter.d.ts:66
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:66
 
 ***
 
@@ -480,7 +480,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-[packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/dc4a3d3ac6eb2833ca38c81e2f7d617683e5fdc3/src/help.ts#L26)
+[packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/d5aa74f3d627a293c34b73dd3313be6bf10c9958/src/help.ts#L26)
 
 ***
 
@@ -502,7 +502,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-[packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/dc4a3d3ac6eb2833ca38c81e2f7d617683e5fdc3/src/help.ts#L13)
+[packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/d5aa74f3d627a293c34b73dd3313be6bf10c9958/src/help.ts#L13)
 
 ***
 
@@ -520,7 +520,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/format
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:38
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:38
 
 ***
 
@@ -542,7 +542,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:39
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:39
 
 ***
 
@@ -564,7 +564,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/index.d.ts:40
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:40
 
 ***
 
@@ -618,4 +618,4 @@ the formatted wrapped text
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/help/formatter.d.ts:95
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:95

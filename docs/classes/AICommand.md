@@ -32,7 +32,7 @@
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:76
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:76
 
 ## Properties
 
@@ -46,7 +46,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:12
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:12
 
 ***
 
@@ -60,7 +60,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:13
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:13
 
 ***
 
@@ -82,7 +82,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:73
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:73
 
 ***
 
@@ -96,7 +96,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:74
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:74
 
 ***
 
@@ -112,7 +112,7 @@ An array of aliases for this command.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:15
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:15
 
 ***
 
@@ -128,7 +128,7 @@ An order-dependent object of arguments for the command
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:17
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:17
 
 ***
 
@@ -142,7 +142,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:18
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:18
 
 ***
 
@@ -158,7 +158,7 @@ Emit deprecation warning when a command alias is used
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:22
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:22
 
 ***
 
@@ -172,7 +172,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:23
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:23
 
 ***
 
@@ -190,7 +190,7 @@ If no summary, the first line of the description will be used as the summary.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:29
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:29
 
 ***
 
@@ -204,7 +204,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/dc4a3d3ac6eb2833ca38c81e2f7d617683e5fdc3/src/ai-command.ts#L11)
+[packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/d5aa74f3d627a293c34b73dd3313be6bf10c9958/src/ai-command.ts#L11)
 
 ***
 
@@ -231,7 +231,7 @@ EXAMPLES:
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:45
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:45
 
 ***
 
@@ -247,7 +247,7 @@ A hash of flags for the command
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/dc4a3d3ac6eb2833ca38c81e2f7d617683e5fdc3/src/ai-command.ts#L13)
+[packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/d5aa74f3d627a293c34b73dd3313be6bf10c9958/src/ai-command.ts#L13)
 
 ***
 
@@ -261,7 +261,7 @@ A hash of flags for the command
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:48
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:48
 
 ***
 
@@ -275,7 +275,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:49
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:49
 
 ***
 
@@ -291,7 +291,7 @@ Hide the command from help
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:51
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:51
 
 ***
 
@@ -307,7 +307,7 @@ An array of aliases for this command that are hidden from help.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:53
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:53
 
 ***
 
@@ -323,7 +323,7 @@ A command ID, used mostly in error or verbose reporting.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:55
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:55
 
 ***
 
@@ -337,7 +337,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:56
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:56
 
 ***
 
@@ -351,7 +351,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:57
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:57
 
 ***
 
@@ -365,7 +365,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:58
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:58
 
 ***
 
@@ -379,7 +379,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:59
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:59
 
 ***
 
@@ -395,7 +395,7 @@ Mark the command as a given state (e.g. beta or deprecated) in help
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:61
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:61
 
 ***
 
@@ -411,7 +411,7 @@ When set to false, allows a variable amount of arguments
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:63
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:63
 
 ***
 
@@ -428,7 +428,7 @@ sub-command listing and as the header for the command help.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:68
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:68
 
 ***
 
@@ -444,7 +444,7 @@ An override string (or strings) for the default usage documentation.
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:72
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:72
 
 ## Accessors
 
@@ -462,7 +462,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:90
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:90
 
 ## Methods
 
@@ -484,7 +484,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:118
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:118
 
 ***
 
@@ -506,7 +506,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:91
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:91
 
 ***
 
@@ -532,7 +532,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 ##### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:92
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:92
 
 #### error(input, options)
 
@@ -554,7 +554,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 ##### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:96
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:96
 
 ***
 
@@ -576,7 +576,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:100
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:100
 
 ***
 
@@ -598,7 +598,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:101
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:101
 
 ***
 
@@ -616,7 +616,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:102
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:102
 
 ***
 
@@ -638,7 +638,7 @@ true if the command supports json and the --json flag is present
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:108
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:108
 
 ***
 
@@ -658,7 +658,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/dc4a3d3ac6eb2833ca38c81e2f7d617683e5fdc3/src/ai-command.ts#L18)
+[packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/d5aa74f3d627a293c34b73dd3313be6bf10c9958/src/ai-command.ts#L18)
 
 ***
 
@@ -682,7 +682,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:109
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:109
 
 ***
 
@@ -704,7 +704,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:110
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:110
 
 ***
 
@@ -728,7 +728,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:111
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:111
 
 ***
 
@@ -760,7 +760,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:112
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:112
 
 ***
 
@@ -780,7 +780,7 @@ actual command run code goes here
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:80
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:80
 
 ***
 
@@ -802,7 +802,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:113
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:113
 
 ***
 
@@ -824,7 +824,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:114
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:114
 
 ***
 
@@ -846,7 +846,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:115
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:115
 
 ***
 
@@ -864,7 +864,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:116
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:116
 
 ***
 
@@ -886,7 +886,7 @@ node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:117
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:117
 
 ***
 
@@ -926,4 +926,4 @@ result
 
 #### Defined in
 
-node\_modules/.pnpm/@oclif+core@4.0.17/node\_modules/@oclif/core/lib/command.d.ts:89
+node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:89
