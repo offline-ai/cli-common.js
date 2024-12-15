@@ -204,7 +204,7 @@ node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/d5aa74f3d627a293c34b73dd3313be6bf10c9958/src/ai-command.ts#L11)
+[packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/fae58730e018f270f4df62464a5e177d7dc50e31/src/ai-command.ts#L11)
 
 ***
 
@@ -247,7 +247,7 @@ A hash of flags for the command
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/d5aa74f3d627a293c34b73dd3313be6bf10c9958/src/ai-command.ts#L13)
+[packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/fae58730e018f270f4df62464a5e177d7dc50e31/src/ai-command.ts#L13)
 
 ***
 
@@ -658,7 +658,7 @@ node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.t
 
 #### Defined in
 
-[packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/d5aa74f3d627a293c34b73dd3313be6bf10c9958/src/ai-command.ts#L18)
+[packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/fae58730e018f270f4df62464a5e177d7dc50e31/src/ai-command.ts#L18)
 
 ***
 
