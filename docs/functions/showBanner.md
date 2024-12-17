@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/5872c0c883a943f0369b62cba28a12f691fdb113/src/help.ts#L6)
+[packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/ee0573e621317646879c62dcb95180e4cf62327f/src/help.ts#L6)
