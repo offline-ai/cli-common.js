@@ -20,4 +20,4 @@
 
 ## Defined in
 
-[packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/ee0573e621317646879c62dcb95180e4cf62327f/src/u-text.ts#L17)
+[packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/bc58e887bd929a95bbb5e6f423264a060271edc9/src/u-text.ts#L17)
