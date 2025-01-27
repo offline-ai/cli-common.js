@@ -1,9 +1,8 @@
 import path from 'path'
 import { defaultsDeep } from 'lodash-es'
 import {Command, Flags} from '@oclif/core'
-import { parseJsJson, parseObjectArgumentInfos } from '@isdk/ai-tool'
+import { DEFAULT_CONFIG_NAME, parseJsJson, parseObjectArgumentInfos, loadAIConfig, loadConfigFile } from '@isdk/ai-tool'
 import { LogLevelMap, setSprintfMaxLength } from '@isdk/ai-tool-agent'
-import { DEFAULT_CONFIG_NAME, loadAIConfig, loadConfigFile } from './load-config'
 
 // const CONFIG_BASE_NAME = '.ai'
 
