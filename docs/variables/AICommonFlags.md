@@ -1,4 +1,4 @@
-[**@offline-ai/cli-common**](../README.md) • **Docs**
+[**@offline-ai/cli-common**](../README.md)
 
 ***
 
@@ -7,6 +7,8 @@
 # Variable: AICommonFlags
 
 > `const` **AICommonFlags**: `object`
+
+Defined in: [packages/cli-common/src/ai-command.ts:141](https://github.com/offline-ai/cli-common.js/blob/7c76b2867959ac85617b42e2562df863a020cc2c/src/ai-command.ts#L141)
 
 ## Type declaration
 
@@ -105,7 +107,3 @@
 ### userPreferredLanguage
 
 > **userPreferredLanguage**: `OptionFlag`\<`undefined` \| `string`, `CustomOptions`\>
-
-## Defined in
-
-[packages/cli-common/src/ai-command.ts:141](https://github.com/offline-ai/cli-common.js/blob/4d8f8cb365e62dbae3889455ab4abd5242ea8f99/src/ai-command.ts#L141)

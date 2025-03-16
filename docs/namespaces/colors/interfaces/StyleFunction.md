@@ -1,4 +1,4 @@
-[**@offline-ai/cli-common**](../../../README.md) • **Docs**
+[**@offline-ai/cli-common**](../../../README.md)
 
 ***
 
@@ -6,23 +6,25 @@
 
 # Interface: StyleFunction()
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:149
+
 ## Extends
 
 - `StylesType`\<[`StyleFunction`](StyleFunction.md)\>
 
 > **StyleFunction**(`s`): `string`
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:150
+
 ## Parameters
 
-• **s**: `string`
+### s
+
+`string`
 
 ## Returns
 
 `string`
-
-## Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:150
 
 ## Properties
 
@@ -30,13 +32,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgBlack**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:128
+
 #### Inherited from
 
 `StylesType.bgBlack`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:128
 
 ***
 
@@ -44,13 +44,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgBlackBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:138
+
 #### Inherited from
 
 `StylesType.bgBlackBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:138
 
 ***
 
@@ -58,13 +56,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgBlue**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:132
+
 #### Inherited from
 
 `StylesType.bgBlue`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:132
 
 ***
 
@@ -72,13 +68,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgBlueBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:142
+
 #### Inherited from
 
 `StylesType.bgBlueBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:142
 
 ***
 
@@ -86,13 +80,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgCyan**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:134
+
 #### Inherited from
 
 `StylesType.bgCyan`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:134
 
 ***
 
@@ -100,13 +92,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgCyanBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:144
+
 #### Inherited from
 
 `StylesType.bgCyanBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:144
 
 ***
 
@@ -114,13 +104,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgGreen**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:130
+
 #### Inherited from
 
 `StylesType.bgGreen`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:130
 
 ***
 
@@ -128,13 +116,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgGreenBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:140
+
 #### Inherited from
 
 `StylesType.bgGreenBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:140
 
 ***
 
@@ -142,13 +128,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgMagenta**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:133
+
 #### Inherited from
 
 `StylesType.bgMagenta`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:133
 
 ***
 
@@ -156,13 +140,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgMagentaBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:143
+
 #### Inherited from
 
 `StylesType.bgMagentaBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:143
 
 ***
 
@@ -170,13 +152,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgRed**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:129
+
 #### Inherited from
 
 `StylesType.bgRed`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:129
 
 ***
 
@@ -184,13 +164,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgRedBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:139
+
 #### Inherited from
 
 `StylesType.bgRedBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:139
 
 ***
 
@@ -198,13 +176,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgWhite**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:135
+
 #### Inherited from
 
 `StylesType.bgWhite`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:135
 
 ***
 
@@ -212,13 +188,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgWhiteBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:145
+
 #### Inherited from
 
 `StylesType.bgWhiteBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:145
 
 ***
 
@@ -226,13 +200,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgYellow**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:131
+
 #### Inherited from
 
 `StylesType.bgYellow`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:131
 
 ***
 
@@ -240,13 +212,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bgYellowBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:141
+
 #### Inherited from
 
 `StylesType.bgYellowBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:141
 
 ***
 
@@ -254,13 +224,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **black**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:106
+
 #### Inherited from
 
 `StylesType.black`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:106
 
 ***
 
@@ -268,13 +236,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **blackBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:118
+
 #### Inherited from
 
 `StylesType.blackBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:118
 
 ***
 
@@ -282,13 +248,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **blue**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:110
+
 #### Inherited from
 
 `StylesType.blue`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:110
 
 ***
 
@@ -296,13 +260,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **blueBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:122
+
 #### Inherited from
 
 `StylesType.blueBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:122
 
 ***
 
@@ -310,13 +272,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **bold**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:97
+
 #### Inherited from
 
 `StylesType.bold`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:97
 
 ***
 
@@ -324,13 +284,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **cyan**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:112
+
 #### Inherited from
 
 `StylesType.cyan`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:112
 
 ***
 
@@ -338,13 +296,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **cyanBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:124
+
 #### Inherited from
 
 `StylesType.cyanBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:124
 
 ***
 
@@ -352,13 +308,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **dim**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:98
+
 #### Inherited from
 
 `StylesType.dim`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:98
 
 ***
 
@@ -366,13 +320,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **gray**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:114
+
 #### Inherited from
 
 `StylesType.gray`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:114
 
 ***
 
@@ -380,13 +332,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **green**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:108
+
 #### Inherited from
 
 `StylesType.green`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:108
 
 ***
 
@@ -394,13 +344,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **greenBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:120
+
 #### Inherited from
 
 `StylesType.greenBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:120
 
 ***
 
@@ -408,13 +356,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **grey**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:115
+
 #### Inherited from
 
 `StylesType.grey`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:115
 
 ***
 
@@ -422,13 +368,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **hidden**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:102
+
 #### Inherited from
 
 `StylesType.hidden`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:102
 
 ***
 
@@ -436,13 +380,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **inverse**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:101
+
 #### Inherited from
 
 `StylesType.inverse`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:101
 
 ***
 
@@ -450,13 +392,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **italic**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:99
+
 #### Inherited from
 
 `StylesType.italic`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:99
 
 ***
 
@@ -464,13 +404,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **magenta**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:111
+
 #### Inherited from
 
 `StylesType.magenta`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:111
 
 ***
 
@@ -478,13 +416,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **magentaBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:123
+
 #### Inherited from
 
 `StylesType.magentaBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:123
 
 ***
 
@@ -492,13 +428,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **red**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:107
+
 #### Inherited from
 
 `StylesType.red`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:107
 
 ***
 
@@ -506,13 +440,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **redBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:119
+
 #### Inherited from
 
 `StylesType.redBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:119
 
 ***
 
@@ -520,13 +452,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **reset**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:96
+
 #### Inherited from
 
 `StylesType.reset`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:96
 
 ***
 
@@ -534,13 +464,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **strikethrough**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:103
+
 #### Inherited from
 
 `StylesType.strikethrough`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:103
 
 ***
 
@@ -548,13 +476,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **underline**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:100
+
 #### Inherited from
 
 `StylesType.underline`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:100
 
 ***
 
@@ -562,13 +488,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **white**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:113
+
 #### Inherited from
 
 `StylesType.white`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:113
 
 ***
 
@@ -576,13 +500,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **whiteBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:125
+
 #### Inherited from
 
 `StylesType.whiteBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:125
 
 ***
 
@@ -590,13 +512,11 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **yellow**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:109
+
 #### Inherited from
 
 `StylesType.yellow`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:109
 
 ***
 
@@ -604,10 +524,8 @@ node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts
 
 > **yellowBright**: [`StyleFunction`](StyleFunction.md)
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:121
+
 #### Inherited from
 
 `StylesType.yellowBright`
-
-#### Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:121

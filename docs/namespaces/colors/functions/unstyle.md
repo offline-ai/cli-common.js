@@ -1,4 +1,4 @@
-[**@offline-ai/cli-common**](../../../README.md) • **Docs**
+[**@offline-ai/cli-common**](../../../README.md)
 
 ***
 
@@ -8,16 +8,16 @@
 
 > **unstyle**(`s`): `string`
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:222
+
 Remove styles from string
 
 ## Parameters
 
-• **s**: `string`
+### s
+
+`string`
 
 ## Returns
 
 `string`
-
-## Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:222

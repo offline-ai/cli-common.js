@@ -1,4 +1,4 @@
-[**@offline-ai/cli-common**](../README.md) • **Docs**
+[**@offline-ai/cli-common**](../README.md)
 
 ***
 
@@ -8,14 +8,14 @@
 
 > **showBanner**(`s`?): `void`
 
+Defined in: [packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/7c76b2867959ac85617b42e2562df863a020cc2c/src/help.ts#L6)
+
 ## Parameters
 
-• **s?**: `string`
+### s?
+
+`string`
 
 ## Returns
 
 `void`
-
-## Defined in
-
-[packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/4d8f8cb365e62dbae3889455ab4abd5242ea8f99/src/help.ts#L6)

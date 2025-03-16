@@ -1,4 +1,4 @@
-[**@offline-ai/cli-common**](../../../README.md) • **Docs**
+[**@offline-ai/cli-common**](../../../README.md)
 
 ***
 
@@ -8,16 +8,16 @@
 
 > **ok**(...`args`): `string`
 
+Defined in: node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:230
+
 Outputs a string with check-symbol as prefix
 
 ## Parameters
 
-• ...**args**: `string`[]
+### args
+
+...`string`[]
 
 ## Returns
 
 `string`
-
-## Defined in
-
-node\_modules/.pnpm/ansi-colors@4.1.3/node\_modules/ansi-colors/types/index.d.ts:230

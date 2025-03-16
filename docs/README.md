@@ -1,4 +1,4 @@
-**@offline-ai/cli-common** • [**Docs**](globals.md)
+**@offline-ai/cli-common**
 
 ***
 

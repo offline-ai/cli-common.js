@@ -1,4 +1,4 @@
-[**@offline-ai/cli-common**](../../README.md) • **Docs**
+[**@offline-ai/cli-common**](../../README.md)
 
 ***
 
@@ -6,13 +6,11 @@
 
 # colors
 
-## Index
-
-### Interfaces
+## Interfaces
 
 - [StyleFunction](interfaces/StyleFunction.md)
 
-### Variables
+## Variables
 
 - [ansiRegex](variables/ansiRegex.md)
 - [enabled](variables/enabled.md)
@@ -20,7 +18,7 @@
 - [symbols](variables/symbols.md)
 - [visible](variables/visible.md)
 
-### Functions
+## Functions
 
 - [bgBlack](functions/bgBlack.md)
 - [bgBlackBright](functions/bgBlackBright.md)
