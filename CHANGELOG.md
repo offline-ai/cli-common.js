@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.4.0](https://github.com/offline-ai/cli-common.js/compare/v0.3.11...v0.4.0) (2025-03-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* extract load-config
+
+### Bug Fixes
+
+* ts glitch ([7c76b28](https://github.com/offline-ai/cli-common.js/commit/7c76b2867959ac85617b42e2562df863a020cc2c))
+
+
+### Refactor
+
+* extract load-config ([24195c4](https://github.com/offline-ai/cli-common.js/commit/24195c4d35521155c028be9f3327527e71781273))
+
 ## [0.3.11](https://github.com/offline-ai/cli-common.js/compare/v0.3.10...v0.3.11) (2024-12-22)
 
 ## [0.3.10](https://github.com/offline-ai/cli-common.js/compare/v0.3.9...v0.3.10) (2024-12-19)
