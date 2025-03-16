@@ -6,7 +6,7 @@
 
 # Class: CustomHelp
 
-Defined in: [packages/cli-common/src/help.ts:12](https://github.com/offline-ai/cli-common.js/blob/1fa872bce0712c08fcfb10de178a4cde06834f5b/src/help.ts#L12)
+Defined in: [packages/cli-common/src/help.ts:12](https://github.com/offline-ai/cli-common.js/blob/3d66f2ca85d071a2b7027ae9fd1ed7bbfa0af2d2/src/help.ts#L12)
 
 ## Extends
 
@@ -472,7 +472,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **showCommandHelp**(`command`): `Promise`\<`void`\>
 
-Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/1fa872bce0712c08fcfb10de178a4cde06834f5b/src/help.ts#L26)
+Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/3d66f2ca85d071a2b7027ae9fd1ed7bbfa0af2d2/src/help.ts#L26)
 
 #### Parameters
 
@@ -494,7 +494,7 @@ Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/c
 
 > **showHelp**(`args`): `Promise`\<`void`\>
 
-Defined in: [packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/1fa872bce0712c08fcfb10de178a4cde06834f5b/src/help.ts#L13)
+Defined in: [packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/3d66f2ca85d071a2b7027ae9fd1ed7bbfa0af2d2/src/help.ts#L13)
 
 #### Parameters
 
