@@ -8,7 +8,7 @@
 
 > **uText**(`s`, `options`): `string`
 
-Defined in: [packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/86b925bdb09207e1b8eadc412c42ec0cd67a280d/src/u-text.ts#L17)
+Defined in: [packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/b36645be8ceb0dbfa7de329f40984a5f1baffed8/src/u-text.ts#L17)
 
 ## Parameters
 
