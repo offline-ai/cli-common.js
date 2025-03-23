@@ -8,7 +8,7 @@
 
 > `const` **AICommonFlags**: `object`
 
-Defined in: [packages/cli-common/src/ai-command.ts:141](https://github.com/offline-ai/cli-common.js/blob/b36645be8ceb0dbfa7de329f40984a5f1baffed8/src/ai-command.ts#L141)
+Defined in: [packages/cli-common/src/ai-command.ts:141](https://github.com/offline-ai/cli-common.js/blob/4989a6d8761c47f92dcbdfbc86aa8904faec100e/src/ai-command.ts#L141)
 
 ## Type declaration
 
