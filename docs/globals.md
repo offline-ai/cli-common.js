@@ -13,6 +13,10 @@
 - [AICommand](classes/AICommand.md)
 - [CustomHelp](classes/CustomHelp.md)
 
+## Interfaces
+
+- [ArtisticTextOptions](interfaces/ArtisticTextOptions.md)
+
 ## Variables
 
 - [AICommonFlags](variables/AICommonFlags.md)

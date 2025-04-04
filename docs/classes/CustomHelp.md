@@ -6,7 +6,7 @@
 
 # Class: CustomHelp
 
-Defined in: [packages/cli-common/src/help.ts:12](https://github.com/offline-ai/cli-common.js/blob/4b1e67f18d98eafe5fd82574dce20d0595cba415/src/help.ts#L12)
+Defined in: [packages/cli-common/src/help.ts:12](https://github.com/offline-ai/cli-common.js/blob/bf21dc72791901cb24aade498bb106f65113ae68/src/help.ts#L12)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/cli-common/src/help.ts:12](https://github.com/offline-ai/c
 
 > **new CustomHelp**(`config`, `opts`?): [`CustomHelp`](CustomHelp.md)
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:24
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:24
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **CommandHelpClass**: *typeof* `CommandHelp`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:23
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:23
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **config**: `Config`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:17
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:17
 
 #### Inherited from
 
@@ -68,7 +68,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **indentSpacing**: `number`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:18
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:18
 
 #### Inherited from
 
@@ -80,7 +80,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **opts**: `HelpOptions`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:19
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:19
 
 #### Inherited from
 
@@ -92,7 +92,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **render**: (`input`) => `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:28
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:28
 
 Takes a string and replaces `<%= prop =>` with the value of prop, where prop is anything on
 `config=Interfaces.Config` or `opts=Interface.HelpOptions`.
@@ -123,7 +123,7 @@ Takes a string and replaces `<%= prop =>` with the value of prop, where prop is 
 
 > **get** `protected` **sortedCommands**(): `Loadable`[]
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:25
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:26
 
 ##### Returns
 
@@ -141,7 +141,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **get** `protected` **sortedTopics**(): `Topic`[]
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:26
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:27
 
 ##### Returns
 
@@ -157,7 +157,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **command**(`command`): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:27
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:28
 
 #### Parameters
 
@@ -179,7 +179,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **description**(`c`): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:28
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:29
 
 #### Parameters
 
@@ -201,7 +201,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **formatCommand**(`command`): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:29
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:30
 
 #### Parameters
 
@@ -223,7 +223,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **formatCommands**(`commands`): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:30
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:31
 
 #### Parameters
 
@@ -245,7 +245,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **formatRoot**(): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:31
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:32
 
 #### Returns
 
@@ -261,7 +261,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **formatTopic**(`topic`): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:32
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:33
 
 #### Parameters
 
@@ -283,7 +283,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **formatTopics**(`topics`): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:33
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:34
 
 #### Parameters
 
@@ -305,7 +305,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **getCommandHelpClass**(`command`): `CommandHelp`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:34
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:35
 
 #### Parameters
 
@@ -327,7 +327,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **indent**(`body`, `spacing`?): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:59
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:59
 
 Indent by `this.indentSpacing`. The text should be wrap based on terminal width before indented.
 
@@ -384,7 +384,7 @@ the formatted indented text
 
 > `protected` **log**(...`args`): `void`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:35
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:36
 
 #### Parameters
 
@@ -406,7 +406,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **renderList**(`input`, `opts`): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:60
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:60
 
 #### Parameters
 
@@ -446,7 +446,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **section**(`header`, `body`): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:66
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:66
 
 #### Parameters
 
@@ -472,7 +472,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **showCommandHelp**(`command`): `Promise`\<`void`\>
 
-Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/4b1e67f18d98eafe5fd82574dce20d0595cba415/src/help.ts#L26)
+Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/bf21dc72791901cb24aade498bb106f65113ae68/src/help.ts#L26)
 
 #### Parameters
 
@@ -494,7 +494,7 @@ Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/c
 
 > **showHelp**(`args`): `Promise`\<`void`\>
 
-Defined in: [packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/4b1e67f18d98eafe5fd82574dce20d0595cba415/src/help.ts#L13)
+Defined in: [packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/bf21dc72791901cb24aade498bb106f65113ae68/src/help.ts#L13)
 
 #### Parameters
 
@@ -516,7 +516,7 @@ Defined in: [packages/cli-common/src/help.ts:13](https://github.com/offline-ai/c
 
 > `protected` **showRootHelp**(): `Promise`\<`void`\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:38
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:39
 
 #### Returns
 
@@ -532,7 +532,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **showTopicHelp**(`topic`): `Promise`\<`void`\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:39
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:40
 
 #### Parameters
 
@@ -554,7 +554,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **summary**(`c`): `undefined` \| `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/index.d.ts:40
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:41
 
 #### Parameters
 
@@ -576,7 +576,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **wrap**(`body`, `spacing`?): `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/help/formatter.d.ts:95
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:95
 
 Wrap text according to `opts.maxWidth` which is typically set to the terminal width. All text
 will be rendered before bring wrapped, otherwise it could mess up the lengths.

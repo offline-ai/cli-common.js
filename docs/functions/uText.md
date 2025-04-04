@@ -6,9 +6,13 @@
 
 # Function: uText()
 
-> **uText**(`s`, `options`): `string`
+> **uText**(`s`, `options`?): `string`
 
-Defined in: [packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai/cli-common.js/blob/4b1e67f18d98eafe5fd82574dce20d0595cba415/src/u-text.ts#L17)
+Defined in: node\_modules/.pnpm/@isdk+artistic-text@0.1.1/node\_modules/@isdk/artistic-text/dist/index.d.ts:25
+
+Generates artistic text with custom fonts and colors.
+
+This function create styled text with a random or specified font, and applies color.
 
 ## Parameters
 
@@ -16,10 +20,28 @@ Defined in: [packages/cli-common/src/u-text.ts:17](https://github.com/offline-ai
 
 `string`
 
-### options
+The text to be styled.
 
-`any` = `{}`
+### options?
+
+[`ArtisticTextOptions`](../interfaces/ArtisticTextOptions.md)
+
+Optional configuration for the text styling.
 
 ## Returns
 
 `string`
+
+The styled text.
+
+## Examples
+
+```ts
+// Generate text with a random font and gray color
+console.log(artisticText('Hello World'));
+```
+
+```ts
+// Generate text with a specific font and color
+console.log(artisticText('Hello World', { font: '3D-ASCII', color: 'blue' }));
+```

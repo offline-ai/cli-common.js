@@ -6,7 +6,7 @@
 
 # Class: `abstract` AICommand
 
-Defined in: [packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/4b1e67f18d98eafe5fd82574dce20d0595cba415/src/ai-command.ts#L10)
+Defined in: [packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/bf21dc72791901cb24aade498bb106f65113ae68/src/ai-command.ts#L10)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [packages/cli-common/src/ai-command.ts:10](https://github.com/offlin
 
 > **new AICommand**(`argv`, `config`): [`AICommand`](AICommand.md)
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:76
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:76
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **argv**: `string`[]
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:12
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:12
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **config**: `Config`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:13
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:13
 
 #### Inherited from
 
@@ -68,7 +68,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **debug**: (...`args`) => `void`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:73
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:74
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **id**: `undefined` \| `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:74
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:75
 
 #### Inherited from
 
@@ -102,7 +102,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `static` **aliases**: `string`[]
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:15
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:16
 
 An array of aliases for this command.
 
@@ -116,7 +116,7 @@ An array of aliases for this command.
 
 > `static` **args**: `ArgInput`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:17
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:18
 
 An order-dependent object of arguments for the command
 
@@ -130,7 +130,7 @@ An order-dependent object of arguments for the command
 
 > `static` **baseFlags**: `FlagInput`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:18
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:19
 
 #### Inherited from
 
@@ -142,7 +142,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `static` `optional` **deprecateAliases**: `boolean`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:22
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:23
 
 Emit deprecation warning when a command alias is used
 
@@ -156,7 +156,7 @@ Emit deprecation warning when a command alias is used
 
 > `static` `optional` **deprecationOptions**: `Deprecation`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:23
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:24
 
 #### Inherited from
 
@@ -168,7 +168,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `static` **description**: `undefined` \| `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:29
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:30
 
 A full description of how to use the command.
 
@@ -184,7 +184,7 @@ If no summary, the first line of the description will be used as the summary.
 
 > `static` **enableJsonFlag**: `boolean` = `true`
 
-Defined in: [packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/4b1e67f18d98eafe5fd82574dce20d0595cba415/src/ai-command.ts#L11)
+Defined in: [packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/bf21dc72791901cb24aade498bb106f65113ae68/src/ai-command.ts#L11)
 
 #### Overrides
 
@@ -196,7 +196,7 @@ Defined in: [packages/cli-common/src/ai-command.ts:11](https://github.com/offlin
 
 > `static` **examples**: `Example`[]
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:45
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:46
 
 An array of examples to show at the end of the command's help.
 
@@ -221,7 +221,7 @@ EXAMPLES:
 
 > `static` **flags**: `Record`\<`string`, `any`\>
 
-Defined in: [packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/4b1e67f18d98eafe5fd82574dce20d0595cba415/src/ai-command.ts#L13)
+Defined in: [packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/bf21dc72791901cb24aade498bb106f65113ae68/src/ai-command.ts#L13)
 
 A hash of flags for the command
 
@@ -235,7 +235,7 @@ A hash of flags for the command
 
 > `static` **hasDynamicHelp**: `boolean`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:48
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:49
 
 #### Inherited from
 
@@ -247,7 +247,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `static` **help**: `undefined` \| `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:49
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:50
 
 #### Inherited from
 
@@ -259,7 +259,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `static` **hidden**: `boolean`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:51
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:52
 
 Hide the command from help
 
@@ -273,7 +273,7 @@ Hide the command from help
 
 > `static` **hiddenAliases**: `string`[]
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:53
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:54
 
 An array of aliases for this command that are hidden from help.
 
@@ -287,7 +287,7 @@ An array of aliases for this command that are hidden from help.
 
 > `static` **id**: `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:55
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:56
 
 A command ID, used mostly in error or verbose reporting.
 
@@ -301,7 +301,7 @@ A command ID, used mostly in error or verbose reporting.
 
 > `static` **plugin**: `undefined` \| `Plugin`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:56
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:57
 
 #### Inherited from
 
@@ -313,7 +313,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `readonly` `static` `optional` **pluginAlias**: `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:57
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:58
 
 #### Inherited from
 
@@ -325,7 +325,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `readonly` `static` `optional` **pluginName**: `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:58
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:59
 
 #### Inherited from
 
@@ -337,7 +337,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `readonly` `static` `optional` **pluginType**: `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:59
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:60
 
 #### Inherited from
 
@@ -349,7 +349,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `static` `optional` **state**: `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:61
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:62
 
 Mark the command as a given state (e.g. beta or deprecated) in help
 
@@ -363,7 +363,7 @@ Mark the command as a given state (e.g. beta or deprecated) in help
 
 > `static` **strict**: `boolean`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:63
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:64
 
 When set to false, allows a variable amount of arguments
 
@@ -377,7 +377,7 @@ When set to false, allows a variable amount of arguments
 
 > `static` `optional` **summary**: `string`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:68
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:69
 
 The tweet-sized description for your class, used in a parent-commands
 sub-command listing and as the header for the command help.
@@ -392,7 +392,7 @@ sub-command listing and as the header for the command help.
 
 > `static` **usage**: `undefined` \| `string` \| `string`[]
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:72
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:73
 
 An override string (or strings) for the default usage documentation.
 
@@ -408,7 +408,7 @@ An override string (or strings) for the default usage documentation.
 
 > **get** `protected` **ctor**(): *typeof* `Command`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:90
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:86
 
 ##### Returns
 
@@ -424,7 +424,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **\_run**\<`T`\>(): `Promise`\<`T`\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:118
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:87
 
 #### Type Parameters
 
@@ -444,7 +444,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **catch**(`err`): `Promise`\<`any`\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:91
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:88
 
 #### Parameters
 
@@ -468,7 +468,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **error**(`input`, `options`): `void`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:92
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:89
 
 ##### Parameters
 
@@ -492,7 +492,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **error**(`input`, `options`?): `never`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:96
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:93
 
 ##### Parameters
 
@@ -518,7 +518,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **exit**(`code`?): `never`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:100
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:97
 
 #### Parameters
 
@@ -540,7 +540,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **finally**(`_`): `Promise`\<`any`\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:101
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:98
 
 #### Parameters
 
@@ -562,7 +562,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **init**(): `Promise`\<`any`\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:102
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:99
 
 #### Returns
 
@@ -578,7 +578,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **jsonEnabled**(): `boolean`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:108
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:105
 
 Determine if the command is being run with the --json flag in a command that supports it.
 
@@ -598,7 +598,7 @@ true if the command supports json and the --json flag is present
 
 > **loadConfig**(`configFile`?, `__namedParameters`?): `Promise`\<`any`\>
 
-Defined in: [packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/4b1e67f18d98eafe5fd82574dce20d0595cba415/src/ai-command.ts#L18)
+Defined in: [packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/bf21dc72791901cb24aade498bb106f65113ae68/src/ai-command.ts#L18)
 
 #### Parameters
 
@@ -620,7 +620,7 @@ Defined in: [packages/cli-common/src/ai-command.ts:18](https://github.com/offlin
 
 > **log**(`message`?, ...`args`?): `void`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:109
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:106
 
 #### Parameters
 
@@ -646,7 +646,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **logJson**(`json`): `void`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:110
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:107
 
 #### Parameters
 
@@ -668,7 +668,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **logToStderr**(`message`?, ...`args`?): `void`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:111
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:108
 
 #### Parameters
 
@@ -694,7 +694,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **parse**\<`F`, `B`, `A`\>(`options`?, `argv`?): `Promise`\<`ParserOutput`\<`F`, `B`, `A`\>\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:112
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:109
 
 #### Type Parameters
 
@@ -728,7 +728,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `abstract` **run**(): `Promise`\<`any`\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:80
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:113
 
 actual command run code goes here
 
@@ -746,7 +746,7 @@ actual command run code goes here
 
 > `protected` **toErrorJson**(`err`): `any`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:113
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:114
 
 #### Parameters
 
@@ -768,7 +768,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **toSuccessJson**(`result`): `any`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:114
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:115
 
 #### Parameters
 
@@ -790,7 +790,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > **warn**(`input`): `string` \| `Error`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:115
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:116
 
 #### Parameters
 
@@ -812,7 +812,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **warnIfCommandDeprecated**(): `void`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:116
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:117
 
 #### Returns
 
@@ -828,7 +828,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `protected` **warnIfFlagDeprecated**(`flags`): `void`
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:117
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:118
 
 #### Parameters
 
@@ -850,7 +850,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib
 
 > `static` **run**\<`T`\>(`this`, `argv`?, `opts`?): `Promise`\<`ReturnType`\<`T`\[`"run"`\]\>\>
 
-Defined in: node\_modules/.pnpm/@oclif+core@4.0.29/node\_modules/@oclif/core/lib/command.d.ts:89
+Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:85
 
 instantiate and run the command
 
