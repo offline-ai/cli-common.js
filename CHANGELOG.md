@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.5.0](https://github.com/offline-ai/cli-common.js/compare/v0.4.9...v0.5.0) (2025-04-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* extract artisticText to @isdk/artistic-text package
+
+### Refactor
+
+* extract artisticText to @isdk/artistic-text package ([bf21dc7](https://github.com/offline-ai/cli-common.js/commit/bf21dc72791901cb24aade498bb106f65113ae68))
+
 ## [0.4.9](https://github.com/offline-ai/cli-common.js/compare/v0.4.8...v0.4.9) (2025-03-23)
 
 ## [0.4.8](https://github.com/offline-ai/cli-common.js/compare/v0.4.7...v0.4.8) (2025-03-23)
