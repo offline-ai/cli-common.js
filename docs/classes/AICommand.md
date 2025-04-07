@@ -6,7 +6,7 @@
 
 # Class: `abstract` AICommand
 
-Defined in: [packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/6c302c9af739caff3c305e841c8147fc84f22b97/src/ai-command.ts#L10)
+Defined in: [packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/ai-command.ts#L10)
 
 ## Extends
 
@@ -184,7 +184,7 @@ If no summary, the first line of the description will be used as the summary.
 
 > `static` **enableJsonFlag**: `boolean` = `true`
 
-Defined in: [packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/6c302c9af739caff3c305e841c8147fc84f22b97/src/ai-command.ts#L11)
+Defined in: [packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/ai-command.ts#L11)
 
 #### Overrides
 
@@ -221,7 +221,7 @@ EXAMPLES:
 
 > `static` **flags**: `Record`\<`string`, `any`\>
 
-Defined in: [packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/6c302c9af739caff3c305e841c8147fc84f22b97/src/ai-command.ts#L13)
+Defined in: [packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/ai-command.ts#L13)
 
 A hash of flags for the command
 
@@ -598,7 +598,7 @@ true if the command supports json and the --json flag is present
 
 > **loadConfig**(`configFile`?, `__namedParameters`?): `Promise`\<`any`\>
 
-Defined in: [packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/6c302c9af739caff3c305e841c8147fc84f22b97/src/ai-command.ts#L18)
+Defined in: [packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/ai-command.ts#L18)
 
 #### Parameters
 
