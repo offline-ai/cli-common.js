@@ -8,7 +8,7 @@
 
 > **showBanner**(`s`?): `void`
 
-Defined in: [packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/bf21dc72791901cb24aade498bb106f65113ae68/src/help.ts#L6)
+Defined in: [packages/cli-common/src/help.ts:6](https://github.com/offline-ai/cli-common.js/blob/e17df6cfc305f8be4ce31d5c312b09bf87e0385c/src/help.ts#L6)
 
 ## Parameters
 
