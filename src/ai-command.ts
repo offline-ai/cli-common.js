@@ -1,4 +1,4 @@
-import path from 'path'
+// import path from 'path'
 import { defaultsDeep } from 'lodash-es'
 import {Command, Flags} from '@oclif/core'
 import { DEFAULT_CONFIG_NAME, parseJsJson, parseObjectArgumentInfos, loadAIConfig, loadConfigFile } from '@isdk/ai-tool'
@@ -17,9 +17,19 @@ export abstract class AICommand extends Command {
 
   async loadConfig(configFile?: string, {args, flags, skipLoadHook}: any = {}) {
     let result = loadAIConfig(this.config)
+
+    if (!result.AI_CONFIG_BASENAME) {result.AI_CONFIG_BASENAME = DEFAULT_CONFIG_NAME}
+    if (!configFile) {
+      configFile =  result.AI_CONFIG_BASENAME as string
+    }
+    // if (!path.isAbsolute(configFile)) {configFile = path.resolve(this.config.configDir, configFile)}
+    Object.defineProperty(result, 'configFile', {
+      value: configFile,
+      enumerable: false,
+    })
+
     if (configFile) {
-      configFile = path.resolve(configFile)
-      const config = loadConfigFile(configFile)
+      const config = loadConfigFile(configFile, result.configDirs)
       if (!config) {
         this.error(`config file ${configFile} not found`)
       }
@@ -87,16 +97,6 @@ export abstract class AICommand extends Command {
       })
       defaultsDeep(result, flags)
     }
-
-    if (!result.AI_CONFIG_BASENAME) {result.AI_CONFIG_BASENAME = DEFAULT_CONFIG_NAME}
-    if (!configFile) {
-      configFile =  result.AI_CONFIG_BASENAME as string
-    }
-    if (!path.isAbsolute(configFile)) {configFile = path.resolve(this.config.configDir, configFile)}
-    Object.defineProperty(result, 'configFile', {
-      value: configFile,
-      enumerable: false,
-    })
 
     if (args?.data) {
       const data = args.data
