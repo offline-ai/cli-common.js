@@ -1,7 +1,7 @@
 // import path from 'path'
 import { defaultsDeep } from 'lodash-es'
 import {Command, Flags} from '@oclif/core'
-import { DEFAULT_CONFIG_NAME, parseJsJson, parseObjectArgumentInfos, loadAIConfig, loadConfigFile } from '@isdk/ai-tool'
+import { DEFAULT_CONFIG_NAME, parseJsJson, parseObjectArgumentInfos, loadAIConfig, loadConfigFile, expandPath, expandPaths, expandPathInObject } from '@isdk/ai-tool'
 // @ts-ignore
 import { LogLevelMap, setSprintfMaxLength } from '@isdk/ai-tool-agent'
 
@@ -33,6 +33,7 @@ export abstract class AICommand extends Command {
       if (!config) {
         this.error(`config file ${configFile} not found`)
       }
+      expandPathInObject(config)
       result = defaultsDeep(config, result)
     }
     result.theme = this.config.theme
@@ -47,21 +48,21 @@ export abstract class AICommand extends Command {
         }
       }
       if (flags.interactive !== undefined) {result.interactive = flags.interactive}
-      if (flags.brainDir) {result.brainDir = flags.brainDir}
-      if (flags.agentDirs) {
+      if (flags.brainDir) {result.brainDir = expandPath(flags.brainDir)}
+      if (Array.isArray(flags.agentDirs) && flags.agentDirs.length) {
         if (Array.isArray(result.agentDirs)) {
-          result.agentDirs.push(...flags.agentDirs)
+          result.agentDirs.push(...expandPaths(flags.agentDirs))
         } else {
-          result.agentDirs = flags.agentDirs
+          result.agentDirs = expandPaths(flags.agentDirs)
         }
       }
-      if (flags.histories) {result.chatsDir = flags.histories}
+      if (flags.histories) {result.chatsDir = expandPath(flags.histories)}
       if (flags.newChat) {result.newChat = flags.newChat}
       if (result.newChat === undefined && !result.interactive) {
         result.newChat = true
       }
       if (flags['no-chats']) {result.chatsDir = undefined}
-      if (flags.inputs) {result.inputsDir = flags.inputs}
+      if (flags.inputs) {result.inputsDir = expandPath(flags.inputs)}
       if (flags['no-inputs']) {result.inputsDir = undefined}
       if (flags.stream !== undefined) {result.stream = flags.stream}
       if (result.stream === undefined) {result.stream = true}
@@ -73,7 +74,7 @@ export abstract class AICommand extends Command {
       if (flags.script) {result.script = flags.script}
 
       if (flags.arguments) {result.arguments = result.arguments ? defaultsDeep(flags.arguments, result.arguments) : flags.arguments}
-      if (flags.dataFile) {result.dataFile = flags.dataFile}
+      if (flags.dataFile) {result.dataFile = expandPath(flags.dataFile)}
 
       let data = result.arguments
       const dataFile = result.dataFile
