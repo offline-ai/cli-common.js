@@ -6,7 +6,7 @@
 
 # Class: CustomHelp
 
-Defined in: [packages/cli-common/src/help.ts:12](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/help.ts#L12)
+Defined in: [packages/cli-common/src/help.ts:12](https://github.com/offline-ai/cli-common.js/blob/5653d2f484afe18f6f9fced74493725f15dd432b/src/help.ts#L12)
 
 ## Extends
 
@@ -14,9 +14,9 @@ Defined in: [packages/cli-common/src/help.ts:12](https://github.com/offline-ai/c
 
 ## Constructors
 
-### new CustomHelp()
+### Constructor
 
-> **new CustomHelp**(`config`, `opts`?): [`CustomHelp`](CustomHelp.md)
+> **new CustomHelp**(`config`, `opts?`): `CustomHelp`
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/index.d.ts:24
 
@@ -32,7 +32,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 #### Returns
 
-[`CustomHelp`](CustomHelp.md)
+`CustomHelp`
 
 #### Inherited from
 
@@ -325,7 +325,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 ### indent()
 
-> **indent**(`body`, `spacing`?): `string`
+> **indent**(`body`, `spacing?`): `string`
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:59
 
@@ -472,7 +472,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 > **showCommandHelp**(`command`): `Promise`\<`void`\>
 
-Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/help.ts#L26)
+Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/cli-common.js/blob/5653d2f484afe18f6f9fced74493725f15dd432b/src/help.ts#L26)
 
 #### Parameters
 
@@ -494,7 +494,7 @@ Defined in: [packages/cli-common/src/help.ts:26](https://github.com/offline-ai/c
 
 > **showHelp**(`args`): `Promise`\<`void`\>
 
-Defined in: [packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/help.ts#L13)
+Defined in: [packages/cli-common/src/help.ts:13](https://github.com/offline-ai/cli-common.js/blob/5653d2f484afe18f6f9fced74493725f15dd432b/src/help.ts#L13)
 
 #### Parameters
 
@@ -574,7 +574,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 ### wrap()
 
-> **wrap**(`body`, `spacing`?): `string`
+> **wrap**(`body`, `spacing?`): `string`
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/help/formatter.d.ts:95
 

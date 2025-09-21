@@ -4,9 +4,9 @@
 
 [@offline-ai/cli-common](../globals.md) / AICommand
 
-# Class: `abstract` AICommand
+# Abstract Class: AICommand
 
-Defined in: [packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/ai-command.ts#L10)
+Defined in: [packages/cli-common/src/ai-command.ts:10](https://github.com/offline-ai/cli-common.js/blob/5653d2f484afe18f6f9fced74493725f15dd432b/src/ai-command.ts#L10)
 
 ## Extends
 
@@ -14,9 +14,9 @@ Defined in: [packages/cli-common/src/ai-command.ts:10](https://github.com/offlin
 
 ## Constructors
 
-### new AICommand()
+### Constructor
 
-> **new AICommand**(`argv`, `config`): [`AICommand`](AICommand.md)
+> **new AICommand**(`argv`, `config`): `AICommand`
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:76
 
@@ -32,7 +32,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 #### Returns
 
-[`AICommand`](AICommand.md)
+`AICommand`
 
 #### Inherited from
 
@@ -184,7 +184,7 @@ If no summary, the first line of the description will be used as the summary.
 
 > `static` **enableJsonFlag**: `boolean` = `true`
 
-Defined in: [packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/ai-command.ts#L11)
+Defined in: [packages/cli-common/src/ai-command.ts:11](https://github.com/offline-ai/cli-common.js/blob/5653d2f484afe18f6f9fced74493725f15dd432b/src/ai-command.ts#L11)
 
 #### Overrides
 
@@ -221,7 +221,7 @@ EXAMPLES:
 
 > `static` **flags**: `Record`\<`string`, `any`\>
 
-Defined in: [packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/ai-command.ts#L13)
+Defined in: [packages/cli-common/src/ai-command.ts:13](https://github.com/offline-ai/cli-common.js/blob/5653d2f484afe18f6f9fced74493725f15dd432b/src/ai-command.ts#L13)
 
 A hash of flags for the command
 
@@ -428,7 +428,9 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 #### Type Parameters
 
-• **T**
+##### T
+
+`T`
 
 #### Returns
 
@@ -490,7 +492,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 #### Call Signature
 
-> **error**(`input`, `options`?): `never`
+> **error**(`input`, `options?`): `never`
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:93
 
@@ -516,7 +518,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 ### exit()
 
-> **exit**(`code`?): `never`
+> **exit**(`code?`): `never`
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:97
 
@@ -596,9 +598,9 @@ true if the command supports json and the --json flag is present
 
 ### loadConfig()
 
-> **loadConfig**(`configFile`?, `__namedParameters`?): `Promise`\<`any`\>
+> **loadConfig**(`configFile?`, `__namedParameters?`): `Promise`\<`any`\>
 
-Defined in: [packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/5e1994cac1f801a73b36921cb7bef147d762ce4c/src/ai-command.ts#L18)
+Defined in: [packages/cli-common/src/ai-command.ts:18](https://github.com/offline-ai/cli-common.js/blob/5653d2f484afe18f6f9fced74493725f15dd432b/src/ai-command.ts#L18)
 
 #### Parameters
 
@@ -618,7 +620,7 @@ Defined in: [packages/cli-common/src/ai-command.ts:18](https://github.com/offlin
 
 ### log()
 
-> **log**(`message`?, ...`args`?): `void`
+> **log**(`message?`, ...`args?`): `void`
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:106
 
@@ -666,7 +668,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 ### logToStderr()
 
-> **logToStderr**(`message`?, ...`args`?): `void`
+> **logToStderr**(`message?`, ...`args?`): `void`
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:108
 
@@ -692,17 +694,23 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 ### parse()
 
-> `protected` **parse**\<`F`, `B`, `A`\>(`options`?, `argv`?): `Promise`\<`ParserOutput`\<`F`, `B`, `A`\>\>
+> `protected` **parse**\<`F`, `B`, `A`\>(`options?`, `argv?`): `Promise`\<`ParserOutput`\<`F`, `B`, `A`\>\>
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:109
 
 #### Type Parameters
 
-• **F** *extends* `FlagOutput`
+##### F
 
-• **B** *extends* `FlagOutput`
+`F` *extends* `FlagOutput`
 
-• **A** *extends* `ArgOutput`
+##### B
+
+`B` *extends* `FlagOutput`
+
+##### A
+
+`A` *extends* `ArgOutput`
 
 #### Parameters
 
@@ -848,7 +856,7 @@ Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib
 
 ### run()
 
-> `static` **run**\<`T`\>(`this`, `argv`?, `opts`?): `Promise`\<`ReturnType`\<`T`\[`"run"`\]\>\>
+> `static` **run**\<`T`\>(`this`, `argv?`, `opts?`): `Promise`\<`ReturnType`\<`T`\[`"run"`\]\>\>
 
 Defined in: node\_modules/.pnpm/@oclif+core@4.2.10/node\_modules/@oclif/core/lib/command.d.ts:85
 
@@ -856,7 +864,9 @@ instantiate and run the command
 
 #### Type Parameters
 
-• **T** *extends* `Command`
+##### T
+
+`T` *extends* `Command`
 
 #### Parameters
 

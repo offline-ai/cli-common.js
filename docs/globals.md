@@ -6,7 +6,7 @@
 
 ## Namespaces
 
-- [colors](namespaces/colors/README.md)
+- [colors](@offline-ai/namespaces/colors/README.md)
 
 ## Classes
 

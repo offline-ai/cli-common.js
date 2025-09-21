@@ -6,7 +6,7 @@
 
 # Function: uText()
 
-> **uText**(`s`, `options`?): `string`
+> **uText**(`s`, `options?`): `string`
 
 Defined in: node\_modules/.pnpm/@isdk+artistic-text@0.1.1/node\_modules/@isdk/artistic-text/dist/index.d.ts:25
 
