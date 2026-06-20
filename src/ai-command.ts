@@ -72,6 +72,7 @@ export abstract class AICommand extends Command {
       if (!result.apiUrl) {result.apiUrl = 'http://localhost:8080'}
       if (flags.logLevel) {result.logLevel = flags.logLevel}
       if (flags.script) {result.script = flags.script}
+      if (flags.performanceTracking) {result.performanceTracking = true}
 
       if (flags.arguments) {result.arguments = result.arguments ? defaultsDeep(flags.arguments, result.arguments) : flags.arguments}
       if (flags.dataFile) {result.dataFile = expandPath(flags.dataFile)}
@@ -196,4 +197,8 @@ export const AICommonFlags = {
   provider: Flags.string({
     char: 'P', description: 'the LLM provider, defaults to llamacpp',
   }),
+
+  performanceTracking: Flags.boolean({
+    description: 'whether performance tracking',
+  })
 }
